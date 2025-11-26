@@ -1,33 +1,88 @@
-# VS Code files
-.vscode/**
-*.vsix
+# ============================================
+# .vscodeignore - VSIX Package Exclusions
+# ============================================
 
-# CRITICAL: Exclude vscode-source (8000+ files)
+# CRITICAL: Exclude large directories
 vscode-source/**
+translation_workflow/**
+translation_balanced/**
+reports/**
+logs/**
 
-# Python scripts
+# Python development tools
 *.py
+__pycache__/**
+*.pyc
 
-# Node modules
+# Dev reference files
+dev_terms_dictionary.json
+english_base.json
+vscode_keys_reference.txt
+checksums.txt
+
+# Translation working files (keep only main.i18n.json)
+translations/*.backup
+translations/*.generated
+translations/*.template
+translations/*.locked.json
+translations/*.english
+translations/*.vi
+translations/*.with_chinese
+translations/*_translated.json
+translations/audit_priority.json
+translations/core.json
+translations/misc.json
+translations/panel.json
+translations/ui.json
+translations/review_queue.json
+
+# Development documentation
+AI_TRANSLATION_ARCHITECTURE.md
+PHA5_COMPLETION_REPORT.md
+PROJECT_CONSTRUCTION_REPORT.md
+PROJECT_STATUS.md
+STATUS_AND_ACTION_PLAN.md
+TEST_CHECKLIST.md
+TRANSLATION_COMPLETION_REPORT.md
+VERIFICATION_REPORT.md
+
+# Container config
+.devcontainer/**
+
+# Scripts & tools
+scripts/**
+tools/**
+core/**
+setup-auto-update.ps1
+vietnamese-langpack-auto-update.ps1
+
+# VS Code internals
+.vscode/**
+.github/**
+
+# Build artifacts
+*.vsix
 node_modules/**
+dist/**
+out/**
 
 # OS files
 .DS_Store
 Thumbs.db
+*.lnk
+desktop.ini
 
-# Logs
+# Archives & logs
 *.log
-npm-debug.log*
-
-# Archives
 *.zip
 *.tar.gz
+*.rar
 
-# Test files
-test/**
-*.test.js
-
-# Build artifacts
+# Temp files
+*.tmp
+*.temp
+~*
+*.bak
 dist/
 build/
 
