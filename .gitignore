@@ -1,6 +1,6 @@
-# Build outputs
-*.vsix
-*.zip
+# Build outputs - Keep root VSIX for releases
+# *.vsix
+# *.zip
 *.rar
 
 # OS files
@@ -12,9 +12,9 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Logs
-*.log
-*.txt
+# Logs - Keep root for releases
+# *.log
+# *.txt
 
 # Temp files
 node_modules/

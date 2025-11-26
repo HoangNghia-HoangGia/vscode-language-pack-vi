@@ -1,22 +1,4 @@
-#!/usr/bin/env powershell
-
-# =============================================================================
-# VIETNAMESE LANGUAGE PACK - AUTO UPDATE SYSTEM
-# Hệ thống tự động cập nhật Vietnamese Language Pack cho VS Code
-# =============================================================================
-
-param(
-    [string]$GitHubRepo = "your-github-username/vietnamese-language-pack",  # Thay đổi thành repo thực tế
-    [switch]$ForceUpdate,
-    [switch]$Silent
-)
-
-# =============================================================================
-# CONFIGURATION
-# =============================================================================
-
-$ExtensionId = "vscode-language-pack-vi"
-#!/usr/bin/env powershell
+﻿#!/usr/bin/env powershell
 
 # =============================================================================
 # VIETNAMESE LANGUAGE PACK - AUTO UPDATE SYSTEM (CORE ENGINE V2.0)
