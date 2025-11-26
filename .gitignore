@@ -1,23 +1,90 @@
-# Build outputs - Keep root VSIX for releases
-# *.vsix
-# *.zip
-*.rar
+# ============================================
+# VS Code Language Pack - Production .gitignore
+# ============================================
+
+# VSIX Packages (upload to GitHub Releases only)
+*.vsix
+
+# Build outputs
+dist/
+out/
+*.log
+
+# Dependencies
+node_modules/
 
 # OS files
 .DS_Store
 Thumbs.db
+desktop.ini
 *.lnk
 
 # IDE
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# Logs - Keep root for releases
-# *.log
-# *.txt
+# Python cache & environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
 
-# Temp files
-node_modules/
+# Temporary files
+*.tmp
+*.temp
+~*
+*.bak
+*.rar
+*.zip
+
+# Translation workflow (development only)
+translation_workflow/
+translation_balanced/
+translations/*.backup
+translations/*.generated
+translations/*.template
+translations/*.locked.json
+translations/*.english
+translations/*.vi
+translations/*.with_chinese
+translations/*_translated.json
+translations/audit_priority.json
+translations/core.json
+translations/misc.json
+translations/panel.json
+translations/ui.json
+translations/review_queue.json
+
+# Large reference files
+vscode-source/
+
+# Development tools
+*.py
+dev_terms_dictionary.json
+english_base.json
+vscode_keys_reference.txt
+
+# Reports & logs
+reports/
+logs/
+
+# Container config
+.devcontainer/
+
+# Documentation (development phase only)
+AI_TRANSLATION_ARCHITECTURE.md
+PHA5_COMPLETION_REPORT.md
+PROJECT_CONSTRUCTION_REPORT.md
+PROJECT_STATUS.md
+STATUS_AND_ACTION_PLAN.md
+TEST_CHECKLIST.md
+TRANSLATION_COMPLETION_REPORT.md
+VERIFICATION_REPORT.md
 dist/
 build/
 temp/
