@@ -78,30 +78,14 @@ desktop.ini
 *.tar.gz
 *.rar
 
-# Temp files
-*.tmp
-*.temp
-~*
-*.bak
-dist/
-build/
-
-# Temporary files
-*.tmp
-*.temp
-
-# Development files
+# Additional exclusions
 *.bat
 *.sh
 installer/**
 vscode-vietnamese-pack/**
-translations/main.i18n.base.json
-translations/main.i18n.json.english
-translations/core.json
-translations/ui.json
-translations/misc.json
-translations/core_translated.json
-translations/ui_translated.json
-translations/misc_translated.json
+
+# Keep only README.md from markdown files
 *.md
 !README.md
+!CHANGELOG.md
+!LICENSE
