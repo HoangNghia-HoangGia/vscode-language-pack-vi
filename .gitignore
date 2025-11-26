@@ -1,0 +1,40 @@
+# Build outputs
+*.vsix
+*.zip
+*.rar
+
+# OS files
+.DS_Store
+Thumbs.db
+*.lnk
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+*.txt
+
+# Temp files
+node_modules/
+dist/
+build/
+temp/
+tmp/
+
+# Archives
+archives/
+backup/
+cleanup-backup/
+
+# Large documentation files
+*.pdf
+*.ipynb
+
+# Keep only source files - exclude binary releases
+releases/**/*.vsix
+releases/**/*.zip
+
+# Keep main package VSIX for distribution
+!vscode-language-pack-vi-main/vscode-language-pack-vi-*.vsix

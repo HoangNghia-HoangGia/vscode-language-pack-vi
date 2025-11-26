@@ -1,0 +1,30 @@
+# VS Code files
+.vscode/**
+*.vsix
+
+# Node modules
+node_modules/**
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Archives
+*.zip
+*.tar.gz
+
+# Test files
+test/**
+*.test.js
+
+# Build artifacts
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.temp

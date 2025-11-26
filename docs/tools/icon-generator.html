@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Icon Generator - Vietnamese Flag</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 24px; }
+    .row { display: flex; gap: 16px; align-items: center; margin-bottom: 12px; }
+    label { min-width: 160px; }
+    canvas { border: 1px solid #ccc; border-radius: 8px; }
+    .actions { display: flex; gap: 12px; margin-top: 16px; }
+  </style>
+</head>
+<body>
+  <h1>Trình tạo icon (Cờ Việt Nam)</h1>
+  <p>Dùng công cụ này để tạo lại <code>icon.png</code> khi muốn đổi màu hoặc chữ. Kết quả xuất ra PNG 256x256.</p>
+
+  <div class="row">
+    <label for="bgColor">Màu nền (đỏ):</label>
+    <input id="bgColor" type="color" value="#DA251D" />
+  </div>
+  <div class="row">
+    <label for="starColor">Màu sao (vàng):</label>
+    <input id="starColor" type="color" value="#FFFF00" />
+  </div>
+  <div class="row">
+    <label for="text">Chữ bên dưới:</label>
+    <input id="text" type="text" value="VIET NAM" />
+  </div>
+  <div class="row">
+    <label for="textColor">Màu chữ:</label>
+    <input id="textColor" type="color" value="#FFFFFF" />
+  </div>
+  <div class="row">
+    <label for="fontSize">Cỡ chữ:</label>
+    <input id="fontSize" type="number" value="34" min="10" max="80" />
+  </div>
+
+  <canvas id="canvas" width="256" height="256"></canvas>
+  <div class="actions">
+    <button id="render">Vẽ lại</button>
+    <a id="download" download="icon.png">Tải xuống PNG</a>
+  </div>
+
+  <script>
+    const canvas = document.getElementById('canvas');
+    const ctx = canvas.getContext('2d');
+
+    function drawStar(cx, cy, spikes, outerRadius, innerRadius, color) {
+      let rot = Math.PI / 2 * 3;
+      let x = cx;
+      let y = cy;
+      ctx.beginPath();
+      ctx.moveTo(cx, cy - outerRadius);
+      for (let i = 0; i < spikes; i++) {
+        x = cx + Math.cos(rot) * outerRadius;
+        y = cy + Math.sin(rot) * outerRadius;
+        ctx.lineTo(x, y);
+        rot += Math.PI / 5;
+
+        x = cx + Math.cos(rot) * innerRadius;
+        y = cy + Math.sin(rot) * innerRadius;
+        ctx.lineTo(x, y);
+        rot += Math.PI / 5;
+      }
+      ctx.lineTo(cx, cy - outerRadius);
+      ctx.closePath();
+      ctx.fillStyle = color;
+      ctx.fill();
+    }
+
+    function render() {
+      const bgColor = document.getElementById('bgColor').value;
+      const starColor = document.getElementById('starColor').value;
+      const text = document.getElementById('text').value;
+      const textColor = document.getElementById('textColor').value;
+      const fontSize = parseInt(document.getElementById('fontSize').value, 10) || 34;
+
+      // Background
+      ctx.fillStyle = bgColor;
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+      // Star centered
+      drawStar(canvas.width / 2, canvas.height / 2 - 16, 5, 70, 30, starColor);
+
+      // Text bottom
+      ctx.fillStyle = textColor;
+      ctx.font = `bold ${fontSize}px system-ui, sans-serif`;
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'bottom';
+      ctx.fillText(text, canvas.width / 2, canvas.height - 12);
+
+      // Update download link
+      const url = canvas.toDataURL('image/png');
+      const a = document.getElementById('download');
+      a.href = url;
+    }
+
+    document.getElementById('render').addEventListener('click', render);
+    render();
+  </script>
+</body>
+</html>
