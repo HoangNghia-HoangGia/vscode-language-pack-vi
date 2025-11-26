@@ -1,0 +1,580 @@
+{
+  "_count": 82,
+  "_instructions": "CẦN REVIEW. Có issue về length hoặc dev terms.",
+  "entries": [
+    {
+      "key": "extensions/css-language-features.css.customData.desc",
+      "original": "[EN] A list of relative file paths pointing to JSON files following the [custom data format](https://github.com/microsoft/vscode-css-languageservice/blob/master/docs/customData.md).\n\nVS Code loads custom data on startup to enhance its CSS support for CSS custom properties (variables), at-rules, pseudo-classes, and pseudo-elements you specify in the JSON files.\n\nThe file paths are relative to workspace and only workspace folder settings are considered.",
+      "translated": "[REVIEW] A list of relative file paths pointing to JSON files following the [custom data format](https://github.com/microsoft/vscode-css-languageservice/blob/master/docs/customData.md).\n\nVS Code loads custom data on startup to enhance its CSS support for CSS custom properties (variables), at-rules, pseudo-classes, and pseudo-elements you specify in the JSON files.\n\nThe file paths are relative to workspace and only workspace folder settings are considered.",
+      "length_en": 455,
+      "length_vi": 459
+    },
+    {
+      "key": "extensions/css-language-features.css.lint.universalSelector.desc",
+      "original": "[EN] The universal selector (`*`) is known to be slow.",
+      "translated": "[REVIEW] The universal selector (`*`) is known to be slow.",
+      "length_en": 54,
+      "length_vi": 58
+    },
+    {
+      "key": "extensions/css-language-features.css.lint.unknownAtRules.desc",
+      "original": "[EN] Unknown at-rule.",
+      "translated": "[TOO_LONG] không xác định at-rule.",
+      "length_en": 21,
+      "length_vi": 34
+    },
+    {
+      "key": "extensions/css-language-features.css.lint.unknownProperties.desc",
+      "original": "[EN] Unknown property.",
+      "translated": "[TOO_LONG] không xác định thuộc tính.",
+      "length_en": 22,
+      "length_vi": 37
+    },
+    {
+      "key": "extensions/css-language-features.css.validate.desc",
+      "original": "[EN] Enables or disables all validations.",
+      "translated": "[TOO_LONG] cho phép hoặc vô hiệu hóa all kiểm tra tính hợp lệs.",
+      "length_en": 41,
+      "length_vi": 63
+    },
+    {
+      "key": "extensions/css-language-features.css.format.spaceAroundSelectorSeparator.desc",
+      "original": "[EN] Ensure a space character around selector separators '>', '+', '~' (e.g. `a > b`).",
+      "translated": "[REVIEW] Ensure a space character around selector separators '>', '+', '~' (e.g. `a > b`).",
+      "length_en": 86,
+      "length_vi": 90
+    },
+    {
+      "key": "extensions/css-language-features.css.format.braceStyle.desc",
+      "original": "[EN] Put braces on the same line as rules (`collapse`) or put braces on own line (`expand`).",
+      "translated": "[REVIEW] Put braces on the same line as rules (`collapse`) or put braces on own line (`expand`).",
+      "length_en": 92,
+      "length_vi": 96
+    },
+    {
+      "key": "extensions/css-language-features.less.lint.universalSelector.desc",
+      "original": "[EN] The universal selector (`*`) is known to be slow.",
+      "translated": "[REVIEW] The universal selector (`*`) is known to be slow.",
+      "length_en": 54,
+      "length_vi": 58
+    },
+    {
+      "key": "extensions/css-language-features.less.lint.unknownAtRules.desc",
+      "original": "[EN] Unknown at-rule.",
+      "translated": "[TOO_LONG] không xác định at-rule.",
+      "length_en": 21,
+      "length_vi": 34
+    },
+    {
+      "key": "extensions/css-language-features.less.lint.unknownProperties.desc",
+      "original": "[EN] Unknown property.",
+      "translated": "[TOO_LONG] không xác định thuộc tính.",
+      "length_en": 22,
+      "length_vi": 37
+    },
+    {
+      "key": "extensions/css-language-features.less.validate.desc",
+      "original": "[EN] Enables or disables all validations.",
+      "translated": "[TOO_LONG] cho phép hoặc vô hiệu hóa all kiểm tra tính hợp lệs.",
+      "length_en": 41,
+      "length_vi": 63
+    },
+    {
+      "key": "extensions/css-language-features.less.format.spaceAroundSelectorSeparator.desc",
+      "original": "[EN] Ensure a space character around selector separators '>', '+', '~' (e.g. `a > b`).",
+      "translated": "[REVIEW] Ensure a space character around selector separators '>', '+', '~' (e.g. `a > b`).",
+      "length_en": 86,
+      "length_vi": 90
+    },
+    {
+      "key": "extensions/css-language-features.less.format.braceStyle.desc",
+      "original": "[EN] Put braces on the same line as rules (`collapse`) or put braces on own line (`expand`).",
+      "translated": "[REVIEW] Put braces on the same line as rules (`collapse`) or put braces on own line (`expand`).",
+      "length_en": 92,
+      "length_vi": 96
+    },
+    {
+      "key": "extensions/css-language-features.scss.lint.universalSelector.desc",
+      "original": "[EN] The universal selector (`*`) is known to be slow.",
+      "translated": "[REVIEW] The universal selector (`*`) is known to be slow.",
+      "length_en": 54,
+      "length_vi": 58
+    },
+    {
+      "key": "extensions/css-language-features.scss.lint.unknownAtRules.desc",
+      "original": "[EN] Unknown at-rule.",
+      "translated": "[TOO_LONG] không xác định at-rule.",
+      "length_en": 21,
+      "length_vi": 34
+    },
+    {
+      "key": "extensions/css-language-features.scss.lint.unknownProperties.desc",
+      "original": "[EN] Unknown property.",
+      "translated": "[TOO_LONG] không xác định thuộc tính.",
+      "length_en": 22,
+      "length_vi": 37
+    },
+    {
+      "key": "extensions/css-language-features.scss.validate.desc",
+      "original": "[EN] Enables or disables all validations.",
+      "translated": "[TOO_LONG] cho phép hoặc vô hiệu hóa all kiểm tra tính hợp lệs.",
+      "length_en": 41,
+      "length_vi": 63
+    },
+    {
+      "key": "extensions/css-language-features.scss.format.spaceAroundSelectorSeparator.desc",
+      "original": "[EN] Ensure a space character around selector separators '>', '+', '~' (e.g. `a > b`).",
+      "translated": "[REVIEW] Ensure a space character around selector separators '>', '+', '~' (e.g. `a > b`).",
+      "length_en": 86,
+      "length_vi": 90
+    },
+    {
+      "key": "extensions/css-language-features.scss.format.braceStyle.desc",
+      "original": "[EN] Put braces on the same line as rules (`collapse`) or put braces on own line (`expand`).",
+      "translated": "[REVIEW] Put braces on the same line as rules (`collapse`) or put braces on own line (`expand`).",
+      "length_en": 92,
+      "length_vi": 96
+    },
+    {
+      "key": "extensions/debug-server-ready.debug.server.ready.serverReadyAction.description",
+      "original": "[EN] Act upon a URI when a server program under debugging is ready (indicated by sending output of the form 'listening on port 3000' or 'Now listening on: https://localhost:5001' to the debug console.)",
+      "translated": "[REVIEW] Act upon a URI when a server program under debugging is ready (indicated by sending output of the form 'listening on port 3000' or 'Now listening on: https://localhost:5001' to the debug console.)",
+      "length_en": 201,
+      "length_vi": 205
+    },
+    {
+      "key": "extensions/emmet.emmetExtensionsPath",
+      "original": "[EN] An array of paths, where each path can contain Emmet syntaxProfiles and/or snippet files.\nIn case of conflicts, the profiles/snippets of later paths will override those of earlier paths.\nSee https://code.visualstudio.com/docs/editor/emmet for more information and an example snippet file.",
+      "translated": "[REVIEW] An array of paths, where each path can contain Emmet syntaxProfiles and/or snippet files.\nIn case of conflicts, the profiles/snippets of later paths will override those of earlier paths.\nSee https://code.visualstudio.com/docs/editor/emmet for more information and an example snippet file.",
+      "length_en": 293,
+      "length_vi": 297
+    },
+    {
+      "key": "extensions/emmet.emmetShowExpandedAbbreviation",
+      "original": "[EN] Shows expanded Emmet abbreviations as suggestions.\nThe option `\"inMarkupAndStylesheetFilesOnly\"` applies to html, haml, jade, slim, xml, xsl, css, scss, sass, less and stylus.\nThe option `\"always\"` applies to all parts of the file regardless of markup/css.",
+      "translated": "[REVIEW] Shows expanded Emmet abbreviations as suggestions.\nThe option `\"inMarkupAndStylesheetFilesOnly\"` applies to html, haml, jade, slim, xml, xsl, css, scss, sass, less and stylus.\nThe option `\"always\"` applies to all parts of the file regardless of markup/css.",
+      "length_en": 261,
+      "length_vi": 265
+    },
+    {
+      "key": "extensions/emmet.emmetIncludeLanguages",
+      "original": "[EN] Enable Emmet abbreviations in languages that are not supported by default. Add a mapping here between the language and Emmet supported language.\n For example: `{\"vue-html\": \"html\", \"javascript\": \"javascriptreact\"}`",
+      "translated": "[REVIEW] Enable Emmet abbreviations in languages that are not supported by default. Add a mapping here between the language and Emmet supported language.\n For example: `{\"vue-html\": \"html\", \"javascript\": \"javascriptreact\"}`",
+      "length_en": 219,
+      "length_vi": 223
+    },
+    {
+      "key": "extensions/emmet.emmetOptimizeStylesheetParsing",
+      "original": "[EN] When set to `false`, the whole file is parsed to determine if current position is valid for expanding Emmet abbreviations. When set to `true`, only the content around the current position in CSS/SCSS/Less files is parsed.",
+      "translated": "[REVIEW] When set to `false`, the whole file is parsed to determine if current position is valid for expanding Emmet abbreviations. When set to `true`, only the content around the current position in CSS/SCSS/Less files is parsed.",
+      "length_en": 226,
+      "length_vi": 230
+    },
+    {
+      "key": "extensions/emmet.emmetPreferencesOutputSelfClosingStyle",
+      "original": "[EN] Style of self-closing tags: html (`<br>`), xml (`<br/>`) or xhtml (`<br />`).",
+      "translated": "[REVIEW] Style of self-closing tags: html (`<br>`), xml (`<br/>`) or xhtml (`<br />`).",
+      "length_en": 82,
+      "length_vi": 86
+    },
+    {
+      "key": "extensions/emmet.emmetUseInlineCompletions",
+      "original": "[EN] If `true`, Emmet will use inline completions to suggest expansions. To prevent the non-inline completion item provider from showing up as often while this setting is `true`, turn `#editor.quickSuggestions#` to `inline` or `off` for the `other` item.",
+      "translated": "[REVIEW] If `true`, Emmet will use inline completions to suggest expansions. To prevent the non-inline completion item provider from showing up as often while this setting is `true`, turn `#editor.quickSuggestions#` to `inline` or `off` for the `other` item.",
+      "length_en": 254,
+      "length_vi": 258
+    },
+    {
+      "key": "extensions/git.config.path",
+      "original": "[EN] Path and filename of the git executable, e.g. `C:\\Program Files\\Git\\bin\\git.exe` (Windows). This can also be an array of string values containing multiple paths to look up.",
+      "translated": "[REVIEW] Path and filename of the git executable, e.g. `C:\\Program Files\\Git\\bin\\git.exe` (Windows). This can also be an array of string values containing multiple paths to look up.",
+      "length_en": 177,
+      "length_vi": 181
+    },
+    {
+      "key": "extensions/git.config.defaultBranchName",
+      "original": "[EN] The name of the default branch (example: main, trunk, development) when initializing a new Git repository. When set to empty, the default branch name configured in Git will be used. **Note:** Requires Git version `2.28.0` or later.",
+      "translated": "[REVIEW] The name of the default branch (example: main, trunk, development) when initializing a new Git repository. When set to empty, the default branch name configured in Git will be used. **Note:** Requires Git version `2.28.0` or later.",
+      "length_en": 236,
+      "length_vi": 240
+    },
+    {
+      "key": "extensions/git.config.branchProtection",
+      "original": "[EN] List of protected branches. By default, a prompt is shown before changes are committed to a protected branch. The prompt can be controlled using the `#git.branchProtectionPrompt#`  setting.",
+      "translated": "[REVIEW] List of protected branches. By default, a prompt is shown before changes are committed to a protected branch. The prompt can be controlled using the `#git.branchProtectionPrompt#`  setting.",
+      "length_en": 194,
+      "length_vi": 198
+    },
+    {
+      "key": "extensions/git.config.branchRandomNameDictionary",
+      "original": "[EN] List of dictionaries used for the randomly generated branch name. Each value represents the dictionary used to generate the segment of the branch name. Supported dictionaries: `adjectives`, `animals`, `colors` and `numbers`.",
+      "translated": "[REVIEW] List of dictionaries used for the randomly generated branch name. Each value represents the dictionary used to generate the segment of the branch name. Supported dictionaries: `adjectives`, `animals`, `colors` and `numbers`.",
+      "length_en": 229,
+      "length_vi": 233
+    },
+    {
+      "key": "extensions/git.config.discardAllScope",
+      "original": "[EN] Controls what changes are discarded by the `Discard all changes` command. `all` discards all changes. `tracked` discards only tracked files. `prompt` shows a prompt dialog every time the action is run.",
+      "translated": "[REVIEW] Controls what changes are discarded by the `Discard all changes` command. `all` discards all changes. `tracked` discards only tracked files. `prompt` shows a prompt dialog every time the action is run.",
+      "length_en": 206,
+      "length_vi": 210
+    },
+    {
+      "key": "extensions/git.config.similarityThreshold",
+      "original": "[EN] Controls the threshold of the similarity index (the amount of additions/deletions compared to the file's size) for changes in a pair of added/deleted files to be considered a rename. **Note:** Requires Git version `2.18.0` or later.",
+      "translated": "[REVIEW] Controls the threshold of the similarity index (the amount of additions/deletions compared to the file's size) for changes in a pair of added/deleted files to be considered a rename. **Note:** Requires Git version `2.18.0` or later.",
+      "length_en": 237,
+      "length_vi": 241
+    },
+    {
+      "key": "extensions/git.config.blameEditorDecoration.template",
+      "original": "[EN] Template for the blame information editor decoration. Supported variables:\n\n* `hash`: Commit hash\n\n* `hashShort`: First N characters of the commit hash according to `#git.commitShortHashLength#`\n\n* `subject`: First line of the commit message\n\n* `authorName`: Author name\n\n* `authorEmail`: Author email\n\n* `authorDate`: Author date\n\n* `authorDateAgo`: Time difference between now and the author date\n\n",
+      "translated": "[REVIEW] Template for the blame information editor decoration. Supported variables:\n\n* `hash`: Commit hash\n\n* `hashShort`: First N characters of the commit hash according to `#git.commitShortHashLength#`\n\n* `subject`: First line of the commit message\n\n* `authorName`: Author name\n\n* `authorEmail`: Author email\n\n* `authorDate`: Author date\n\n* `authorDateAgo`: Time difference between now and the author date\n\n",
+      "length_en": 405,
+      "length_vi": 409
+    },
+    {
+      "key": "extensions/git.config.blameStatusBarItem.template",
+      "original": "[EN] Template for the blame information status bar item. Supported variables:\n\n* `hash`: Commit hash\n\n* `hashShort`: First N characters of the commit hash according to `#git.commitShortHashLength#`\n\n* `subject`: First line of the commit message\n\n* `authorName`: Author name\n\n* `authorEmail`: Author email\n\n* `authorDate`: Author date\n\n* `authorDateAgo`: Time difference between now and the author date\n\n",
+      "translated": "[REVIEW] Template for the blame information status bar item. Supported variables:\n\n* `hash`: Commit hash\n\n* `hashShort`: First N characters of the commit hash according to `#git.commitShortHashLength#`\n\n* `subject`: First line of the commit message\n\n* `authorName`: Author name\n\n* `authorEmail`: Author email\n\n* `authorDate`: Author date\n\n* `authorDateAgo`: Time difference between now and the author date\n\n",
+      "length_en": 403,
+      "length_vi": 407
+    },
+    {
+      "key": "extensions/git.config.diagnosticsCommitHook.sources",
+      "original": "[EN] Controls the list of sources (**Item**) and the minimum severity (**Value**) to be considered before committing. **Note:** To ignore diagnostics from a particular source, add the source to the list and set the minimum severity to `none`.",
+      "translated": "[REVIEW] Controls the list of sources (**Item**) and the minimum severity (**Value**) to be considered before committing. **Note:** To ignore diagnostics from a particular source, add the source to the list and set the minimum severity to `none`.",
+      "length_en": 242,
+      "length_vi": 246
+    },
+    {
+      "key": "extensions/git.config.discardUntrackedChangesToTrash",
+      "original": "[EN] Controls whether discarding untracked changes moves the file(s) to the Recycle Bin (Windows), Trash (macOS, Linux) instead of deleting them permanently. **Note:** This setting has no effect when connected to a remote or when running in Linux as a snap package.",
+      "translated": "[REVIEW] Controls whether discarding untracked changes moves the file(s) to the Recycle Bin (Windows), Trash (macOS, Linux) instead of deleting them permanently. **Note:** This setting has no effect when connected to a remote or when running in Linux as a snap package.",
+      "length_en": 265,
+      "length_vi": 269
+    },
+    {
+      "key": "extensions/git.view.workbench.learnMore",
+      "original": "[EN] To learn more about how to use Git and source control in VS Code [read our docs](https://aka.ms/vscode-scm).",
+      "translated": "[REVIEW] To learn more about how to use Git and source control in VS Code [read our docs](https://aka.ms/vscode-scm).",
+      "length_en": 113,
+      "length_vi": 117
+    },
+    {
+      "key": "extensions/github-authentication.config.github-enterprise.uri.description",
+      "original": "[EN] The URI for your GHE.com or GitHub Enterprise Server instance.\n\nExamples:\n* GHE.com: `https://octocat.ghe.com`\n* GitHub Enterprise Server: `https://github.octocat.com`\n\n> **Note:** This should _not_ be set to a GitHub.com URI. If your account exists on GitHub.com or is a GitHub Enterprise Managed User, you do not need any additional configuration and can simply log in to GitHub.",
+      "translated": "[REVIEW] The URI for your GHE.com or GitHub Enterprise Server instance.\n\nExamples:\n* GHE.com: `https://octocat.ghe.com`\n* GitHub Enterprise Server: `https://github.octocat.com`\n\n> **Note:** This should _not_ be set to a GitHub.com URI. If your account exists on GitHub.com or is a GitHub Enterprise Managed User, you do not need any additional configuration and can simply log in to GitHub.",
+      "length_en": 386,
+      "length_vi": 390
+    },
+    {
+      "key": "extensions/html-language-features.html.customData.desc",
+      "original": "[EN] A list of relative file paths pointing to JSON files following the [custom data format](https://github.com/microsoft/vscode-html-languageservice/blob/master/docs/customData.md).\n\nVS Code loads custom data on startup to enhance its HTML support for the custom HTML tags, attributes and attribute values you specify in the JSON files.\n\nThe file paths are relative to workspace and only workspace folder settings are considered.",
+      "translated": "[REVIEW] A list of relative file paths pointing to JSON files following the [custom data format](https://github.com/microsoft/vscode-html-languageservice/blob/master/docs/customData.md).\n\nVS Code loads custom data on startup to enhance its HTML support for the custom HTML tags, attributes and attribute values you specify in the JSON files.\n\nThe file paths are relative to workspace and only workspace folder settings are considered.",
+      "length_en": 430,
+      "length_vi": 434
+    },
+    {
+      "key": "extensions/html-language-features.html.format.unformatted.desc",
+      "original": "[EN] List of tags, comma separated, that shouldn't be reformatted. `null` defaults to all tags listed at https://www.w3.org/TR/html5/dom.html#phrasing-content.",
+      "translated": "[REVIEW] List of tags, comma separated, that shouldn't be reformatted. `null` defaults to all tags listed at https://www.w3.org/TR/html5/dom.html#phrasing-content.",
+      "length_en": 159,
+      "length_vi": 163
+    },
+    {
+      "key": "extensions/html-language-features.html.format.indentHandlebars.desc",
+      "original": "[EN] Format and indent `{{#foo}}` and `{{/foo}}`.",
+      "translated": "[REVIEW] Format and indent `{{#foo}}` and `{{/foo}}`.",
+      "length_en": 49,
+      "length_vi": 53
+    },
+    {
+      "key": "extensions/json-language-features.json.schemas.fileMatch.desc",
+      "original": "[EN] An array of file patterns to match against when resolving JSON files to schemas. `*` and '**' can be used as a wildcard. Exclusion patterns can also be defined and start with '!'. A file matches when there is at least one matching pattern and the last matching pattern is not an exclusion pattern.",
+      "translated": "[REVIEW] An array of file patterns to match against when resolving JSON files to schemas. `*` and '**' can be used as a wildcard. Exclusion patterns can also be defined and start with '!'. A file matches when there is at least one matching pattern and the last matching pattern is not an exclusion pattern.",
+      "length_en": 302,
+      "length_vi": 306
+    },
+    {
+      "key": "extensions/markdown-language-features.configuration.markdown.suggest.paths.includeWorkspaceHeaderCompletions",
+      "original": "[EN] Enable suggestions for headers in other Markdown files in the current workspace. Accepting one of these suggestions inserts the full path to header in that file, for example: `[link text](/path/to/file.md#header)`.",
+      "translated": "[REVIEW] Enable suggestions for headers in other Markdown files in the current workspace. Accepting one of these suggestions inserts the full path to header in that file, for example: `[link text](/path/to/file.md#header)`.",
+      "length_en": 219,
+      "length_vi": 223
+    },
+    {
+      "key": "extensions/markdown-language-features.configuration.markdown.suggest.paths.includeWorkspaceHeaderCompletions.onDoubleHash",
+      "original": "[EN] Enable workspace header suggestions after typing `##` in a path, for example: `[link text](##`.",
+      "translated": "[REVIEW] Enable workspace header suggestions after typing `##` in a path, for example: `[link text](##`.",
+      "length_en": 100,
+      "length_vi": 104
+    },
+    {
+      "key": "extensions/markdown-language-features.configuration.markdown.suggest.paths.includeWorkspaceHeaderCompletions.onSingleOrDoubleHash",
+      "original": "[EN] Enable workspace header suggestions after typing either `##` or `#` in a path, for example: `[link text](#` or `[link text](##`.",
+      "translated": "[REVIEW] Enable workspace header suggestions after typing either `##` or `#` in a path, for example: `[link text](#` or `[link text](##`.",
+      "length_en": 133,
+      "length_vi": 137
+    },
+    {
+      "key": "extensions/markdown-language-features.configuration.markdown.editor.drop.copyIntoWorkspace",
+      "original": "[EN] Controls if files outside of the workspace that are dropped into a Markdown editor should be copied into the workspace.\n\nUse `#markdown.copyFiles.destination#` to configure where copied dropped files should be created",
+      "translated": "[REVIEW] Controls if files outside of the workspace that are dropped into a Markdown editor should be copied into the workspace.\n\nUse `#markdown.copyFiles.destination#` to configure where copied dropped files should be created",
+      "length_en": 222,
+      "length_vi": 226
+    },
+    {
+      "key": "extensions/markdown-language-features.configuration.markdown.editor.filePaste.copyIntoWorkspace",
+      "original": "[EN] Controls if files outside of the workspace that are pasted into a Markdown editor should be copied into the workspace.\n\nUse `#markdown.copyFiles.destination#` to configure where copied files should be created.",
+      "translated": "[REVIEW] Controls if files outside of the workspace that are pasted into a Markdown editor should be copied into the workspace.\n\nUse `#markdown.copyFiles.destination#` to configure where copied files should be created.",
+      "length_en": 214,
+      "length_vi": 218
+    },
+    {
+      "key": "extensions/markdown-language-features.configuration.markdown.validate.fragmentLinks.enabled.description",
+      "original": "[EN] Validate fragment links to headers in the current Markdown file, for example: `[link](#header)`. Requires enabling `#markdown.validate.enabled#`.",
+      "translated": "[REVIEW] Validate fragment links to headers in the current Markdown file, for example: `[link](#header)`. Requires enabling `#markdown.validate.enabled#`.",
+      "length_en": 150,
+      "length_vi": 154
+    },
+    {
+      "key": "extensions/markdown-language-features.configuration.markdown.validate.fileLinks.enabled.description",
+      "original": "[EN] Validate links to other files in Markdown files, for example `[link](/path/to/file.md)`. This checks that the target files exists. Requires enabling `#markdown.validate.enabled#`.",
+      "translated": "[REVIEW] Validate links to other files in Markdown files, for example `[link](/path/to/file.md)`. This checks that the target files exists. Requires enabling `#markdown.validate.enabled#`.",
+      "length_en": 184,
+      "length_vi": 188
+    },
+    {
+      "key": "extensions/markdown-language-features.configuration.markdown.validate.fileLinks.markdownFragmentLinks.description",
+      "original": "[EN] Validate the fragment part of links to headers in other files in Markdown files, for example: `[link](/path/to/file.md#header)`. Inherits the setting value from `#markdown.validate.fragmentLinks.enabled#` by default.",
+      "translated": "[REVIEW] Validate the fragment part of links to headers in other files in Markdown files, for example: `[link](/path/to/file.md#header)`. Inherits the setting value from `#markdown.validate.fragmentLinks.enabled#` by default.",
+      "length_en": 221,
+      "length_vi": 225
+    },
+    {
+      "key": "extensions/markdown-language-features.configuration.markdown.validate.ignoredLinks.description",
+      "original": "[EN] Configure links that should not be validated. For example adding `/about` would not validate the link `[about](/about)`, while the glob `/assets/**/*.svg` would let you skip validation for any link to `.svg` files under the `assets` directory.",
+      "translated": "[REVIEW] Configure links that should not be validated. For example adding `/about` would not validate the link `[about](/about)`, while the glob `/assets/**/*.svg` would let you skip validation for any link to `.svg` files under the `assets` directory.",
+      "length_en": 248,
+      "length_vi": 252
+    },
+    {
+      "key": "extensions/markdown-language-features.configuration.markdown.preferredMdPathExtensionStyle",
+      "original": "[EN] Controls if file extensions (for example `.md`) are added or not for links to Markdown files. This setting is used when file paths are added by tooling such as path completions or file renames.",
+      "translated": "[REVIEW] Controls if file extensions (for example `.md`) are added or not for links to Markdown files. This setting is used when file paths are added by tooling such as path completions or file renames.",
+      "length_en": 198,
+      "length_vi": 202
+    },
+    {
+      "key": "extensions/markdown-language-features.configuration.markdown.editor.filePaste.videoSnippet",
+      "original": "[EN] Snippet used when adding videos to Markdown. This snippet can use the following variables:\n- `${src}` — The resolved path of the video file.\n- `${title}` — The title used for the video. A snippet placeholder will automatically be created for this variable.",
+      "translated": "[REVIEW] Snippet used when adding videos to Markdown. This snippet can use the following variables:\n- `${src}` — The resolved path of the video file.\n- `${title}` — The title used for the video. A snippet placeholder will automatically be created for this variable.",
+      "length_en": 261,
+      "length_vi": 265
+    },
+    {
+      "key": "extensions/markdown-language-features.configuration.markdown.editor.filePaste.audioSnippet",
+      "original": "[EN] Snippet used when adding audio to Markdown. This snippet can use the following variables:\n- `${src}` — The resolved path of the audio  file.\n- `${title}` — The title used for the audio. A snippet placeholder will automatically be created for this variable.",
+      "translated": "[REVIEW] Snippet used when adding audio to Markdown. This snippet can use the following variables:\n- `${src}` — The resolved path of the audio  file.\n- `${title}` — The title used for the audio. A snippet placeholder will automatically be created for this variable.",
+      "length_en": 261,
+      "length_vi": 265
+    },
+    {
+      "key": "extensions/markdown-language-features.configuration.markdown.editor.updateLinksOnPaste.enabled",
+      "original": "[EN] Enable/disable a paste option that updates links and reference in text that is copied and pasted between Markdown editors.\n\nTo use this feature, after pasting text that contains updatable links, just click on the Paste Widget and select `Paste and update pasted links`.",
+      "translated": "[REVIEW] Enable/disable a paste option that updates links and reference in text that is copied and pasted between Markdown editors.\n\nTo use this feature, after pasting text that contains updatable links, just click on the Paste Widget and select `Paste and update pasted links`.",
+      "length_en": 274,
+      "length_vi": 278
+    },
+    {
+      "key": "extensions/npm.npm.parseError",
+      "original": "[EN] Npm task detection: failed to parse the file {0}",
+      "translated": "[REVIEW] Npm task detection: failed to parse the file {0}",
+      "length_en": 53,
+      "length_vi": 57
+    },
+    {
+      "key": "extensions/typescript-language-features.typescript.tsdk.desc",
+      "original": "[EN] Specifies the folder path to the tsserver and `lib*.d.ts` files under a TypeScript install to use for IntelliSense, for example: `./node_modules/typescript/lib`.\n\n- When specified as a user setting, the TypeScript version from `typescript.tsdk` automatically replaces the built-in TypeScript version.\n- When specified as a workspace setting, `typescript.tsdk` allows you to switch to use that workspace version of TypeScript for IntelliSense with the `TypeScript: Select TypeScript version` command.\n\nSee the [TypeScript documentation](https://code.visualstudio.com/docs/typescript/typescript-compiling#_using-newer-typescript-versions) for more detail about managing TypeScript versions.",
+      "translated": "[REVIEW] Specifies the folder path to the tsserver and `lib*.d.ts` files under a TypeScript install to use for IntelliSense, for example: `./node_modules/typescript/lib`.\n\n- When specified as a user setting, the TypeScript version from `typescript.tsdk` automatically replaces the built-in TypeScript version.\n- When specified as a workspace setting, `typescript.tsdk` allows you to switch to use that workspace version of TypeScript for IntelliSense with the `TypeScript: Select TypeScript version` command.\n\nSee the [TypeScript documentation](https://code.visualstudio.com/docs/typescript/typescript-compiling#_using-newer-typescript-versions) for more detail about managing TypeScript versions.",
+      "length_en": 693,
+      "length_vi": 697
+    },
+    {
+      "key": "extensions/typescript-language-features.typescript.disableAutomaticTypeAcquisition",
+      "original": "[EN] Disables [automatic type acquisition](https://code.visualstudio.com/docs/nodejs/working-with-javascript#_typings-and-automatic-type-acquisition). Automatic type acquisition fetches `@types` packages from npm to improve IntelliSense for external libraries.",
+      "translated": "[REVIEW] Disables [automatic type acquisition](https://code.visualstudio.com/docs/nodejs/working-with-javascript#_typings-and-automatic-type-acquisition). Automatic type acquisition fetches `@types` packages from npm to improve IntelliSense for external libraries.",
+      "length_en": 260,
+      "length_vi": 264
+    },
+    {
+      "key": "extensions/typescript-language-features.typescript.npm",
+      "original": "[EN] Specifies the path to the npm executable used for [Automatic Type Acquisition](https://code.visualstudio.com/docs/nodejs/working-with-javascript#_typings-and-automatic-type-acquisition).",
+      "translated": "[REVIEW] Specifies the path to the npm executable used for [Automatic Type Acquisition](https://code.visualstudio.com/docs/nodejs/working-with-javascript#_typings-and-automatic-type-acquisition).",
+      "length_en": 191,
+      "length_vi": 195
+    },
+    {
+      "key": "extensions/typescript-language-features.typescript.check.npmIsInstalled",
+      "original": "[EN] Check if npm is installed for [Automatic Type Acquisition](https://code.visualstudio.com/docs/nodejs/working-with-javascript#_typings-and-automatic-type-acquisition).",
+      "translated": "[REVIEW] Check if npm is installed for [Automatic Type Acquisition](https://code.visualstudio.com/docs/nodejs/working-with-javascript#_typings-and-automatic-type-acquisition).",
+      "length_en": 171,
+      "length_vi": 175
+    },
+    {
+      "key": "extensions/typescript-language-features.configuration.suggest.names",
+      "original": "[EN] Enable/disable including unique names from the file in JavaScript suggestions. Note that name suggestions are always disabled in JavaScript code that is semantically checked using `@ts-check` or `checkJs`.",
+      "translated": "[REVIEW] Enable/disable including unique names from the file in JavaScript suggestions. Note that name suggestions are always disabled in JavaScript code that is semantically checked using `@ts-check` or `checkJs`.",
+      "length_en": 210,
+      "length_vi": 214
+    },
+    {
+      "key": "extensions/typescript-language-features.configuration.tsserver.maxTsServerMemory",
+      "original": "[EN] The maximum amount of memory (in MB) to allocate to the TypeScript server process. To use a memory limit greater than 4 GB, use `#typescript.tsserver.nodePath#` to run TS Server with a custom Node installation.",
+      "translated": "[REVIEW] The maximum amount of memory (in MB) to allocate to the TypeScript server process. To use a memory limit greater than 4 GB, use `#typescript.tsserver.nodePath#` to run TS Server with a custom Node installation.",
+      "length_en": 215,
+      "length_vi": 219
+    },
+    {
+      "key": "extensions/typescript-language-features.configuration.implicitProjectConfig.strictNullChecks",
+      "original": "[EN] Enable/disable [strict null checks](https://www.typescriptlang.org/tsconfig#strictNullChecks) in JavaScript and TypeScript files that are not part of a project. Existing `jsconfig.json` or `tsconfig.json` files override this setting.",
+      "translated": "[REVIEW] Enable/disable [strict null checks](https://www.typescriptlang.org/tsconfig#strictNullChecks) in JavaScript and TypeScript files that are not part of a project. Existing `jsconfig.json` or `tsconfig.json` files override this setting.",
+      "length_en": 238,
+      "length_vi": 242
+    },
+    {
+      "key": "extensions/typescript-language-features.configuration.implicitProjectConfig.strictFunctionTypes",
+      "original": "[EN] Enable/disable [strict function types](https://www.typescriptlang.org/tsconfig#strictFunctionTypes) in JavaScript and TypeScript files that are not part of a project. Existing `jsconfig.json` or `tsconfig.json` files override this setting.",
+      "translated": "[REVIEW] Enable/disable [strict function types](https://www.typescriptlang.org/tsconfig#strictFunctionTypes) in JavaScript and TypeScript files that are not part of a project. Existing `jsconfig.json` or `tsconfig.json` files override this setting.",
+      "length_en": 244,
+      "length_vi": 248
+    },
+    {
+      "key": "extensions/typescript-language-features.configuration.implicitProjectConfig.strict",
+      "original": "[EN] Enable/disable [strict mode](https://www.typescriptlang.org/tsconfig#strict) in JavaScript and TypeScript files that are not part of a project. Existing `jsconfig.json` or `tsconfig.json` files override this setting.",
+      "translated": "[REVIEW] Enable/disable [strict mode](https://www.typescriptlang.org/tsconfig#strict) in JavaScript and TypeScript files that are not part of a project. Existing `jsconfig.json` or `tsconfig.json` files override this setting.",
+      "length_en": 221,
+      "length_vi": 225
+    },
+    {
+      "key": "extensions/typescript-language-features.javascript.preferences.jsxAttributeCompletionStyle.auto",
+      "original": "[EN] Insert `={}` or `=\"\"` after attribute names based on the prop type. See `#javascript.preferences.quoteStyle#` to control the type of quotes used for string attributes.",
+      "translated": "[REVIEW] Insert `={}` or `=\"\"` after attribute names based on the prop type. See `#javascript.preferences.quoteStyle#` to control the type of quotes used for string attributes.",
+      "length_en": 172,
+      "length_vi": 176
+    },
+    {
+      "key": "extensions/typescript-language-features.typescript.preferences.jsxAttributeCompletionStyle.auto",
+      "original": "[EN] Insert `={}` or `=\"\"` after attribute names based on the prop type. See `#typescript.preferences.quoteStyle#` to control the type of quotes used for string attributes.",
+      "translated": "[REVIEW] Insert `={}` or `=\"\"` after attribute names based on the prop type. See `#typescript.preferences.quoteStyle#` to control the type of quotes used for string attributes.",
+      "length_en": 172,
+      "length_vi": 176
+    },
+    {
+      "key": "extensions/typescript-language-features.typescript.preferences.jsxAttributeCompletionStyle.braces",
+      "original": "[EN] Insert `={}` after attribute names.",
+      "translated": "[REVIEW] Insert `={}` after attribute names.",
+      "length_en": 40,
+      "length_vi": 44
+    },
+    {
+      "key": "extensions/typescript-language-features.typescript.preferences.autoImportFileExcludePatterns",
+      "original": "[EN] Specify glob patterns of files to exclude from auto imports. Relative paths are resolved relative to the workspace root. Patterns are evaluated using tsconfig.json [`exclude`](https://www.typescriptlang.org/tsconfig#exclude) semantics.",
+      "translated": "[REVIEW] Specify glob patterns of files to exclude from auto imports. Relative paths are resolved relative to the workspace root. Patterns are evaluated using tsconfig.json [`exclude`](https://www.typescriptlang.org/tsconfig#exclude) semantics.",
+      "length_en": 240,
+      "length_vi": 244
+    },
+    {
+      "key": "extensions/typescript-language-features.typescript.preferences.autoImportSpecifierExcludeRegexes",
+      "original": "[EN] Specify regular expressions to exclude auto imports with matching import specifiers. Examples:\n\n- `^node:`\n- `lib/internal` (slashes don't need to be escaped...)\n- `/lib\\/internal/i` (...unless including surrounding slashes for `i` or `u` flags)\n- `^lodash$` (only allow subpath imports from lodash)",
+      "translated": "[REVIEW] Specify regular expressions to exclude auto imports with matching import specifiers. Examples:\n\n- `^node:`\n- `lib/internal` (slashes don't need to be escaped...)\n- `/lib\\/internal/i` (...unless including surrounding slashes for `i` or `u` flags)\n- `^lodash$` (only allow subpath imports from lodash)",
+      "length_en": 304,
+      "length_vi": 308
+    },
+    {
+      "key": "extensions/typescript-language-features.configuration.tsserver.watchOptions.synchronousWatchDirectory",
+      "original": "[EN] Disable deferred watching on directories. Deferred watching is useful when lots of file changes might occur at once (e.g. a change in node_modules from running npm install), but you might want to disable it with this flag for some less-common setups.",
+      "translated": "[REVIEW] Disable deferred watching on directories. Deferred watching is useful when lots of file changes might occur at once (e.g. a change in node_modules from running npm install), but you might want to disable it with this flag for some less-common setups.",
+      "length_en": 255,
+      "length_vi": 259
+    },
+    {
+      "key": "extensions/typescript-language-features.typescript.preferences.organizeImports.typeOrder.last",
+      "original": "[EN] Type only named imports are sorted to the end of the import list. E.g. `import { B, Z, type A, type Y } from 'module';`",
+      "translated": "[REVIEW] Type only named imports are sorted to the end of the import list. E.g. `import { B, Z, type A, type Y } from 'module';`",
+      "length_en": 124,
+      "length_vi": 128
+    },
+    {
+      "key": "extensions/typescript-language-features.typescript.preferences.organizeImports.typeOrder.inline",
+      "original": "[EN] Named imports are sorted by name only. E.g. `import { type A, B, type Y, Z } from 'module';`",
+      "translated": "[REVIEW] Named imports are sorted by name only. E.g. `import { type A, B, type Y, Z } from 'module';`",
+      "length_en": 97,
+      "length_vi": 101
+    },
+    {
+      "key": "extensions/typescript-language-features.typescript.preferences.organizeImports.typeOrder.first",
+      "original": "[EN] Type only named imports are sorted to the beginning of the import list. E.g. `import { type A, type Y, B, Z } from 'module';`",
+      "translated": "[REVIEW] Type only named imports are sorted to the beginning of the import list. E.g. `import { type A, type Y, B, Z } from 'module';`",
+      "length_en": 130,
+      "length_vi": 134
+    },
+    {
+      "key": "extensions/typescript-language-features.typescript.workspaceSymbols.scope",
+      "original": "[EN] Controls which files are searched by [Go to Symbol in Workspace](https://code.visualstudio.com/docs/editor/editingevolved#_open-symbol-by-name).",
+      "translated": "[REVIEW] Controls which files are searched by [Go to Symbol in Workspace](https://code.visualstudio.com/docs/editor/editingevolved#_open-symbol-by-name).",
+      "length_en": 149,
+      "length_vi": 153
+    },
+    {
+      "key": "extensions/typescript-language-features.configuration.tsserver.web.projectWideIntellisense.suppressSemanticErrors",
+      "original": "[EN] Suppresses semantic errors on web even when project wide IntelliSense is enabled. This is always on when project wide IntelliSense is not enabled or available. See `#typescript.tsserver.web.projectWideIntellisense.enabled#`",
+      "translated": "[REVIEW] Suppresses semantic errors on web even when project wide IntelliSense is enabled. This is always on when project wide IntelliSense is not enabled or available. See `#typescript.tsserver.web.projectWideIntellisense.enabled#`",
+      "length_en": 228,
+      "length_vi": 232
+    },
+    {
+      "key": "extensions/typescript-language-features.configuration.tsserver.web.typeAcquisition.enabled",
+      "original": "[EN] Enable/disable package acquisition on the web. This enables IntelliSense for imported packages. Requires `#typescript.tsserver.web.projectWideIntellisense.enabled#`. Currently not supported for Safari.",
+      "translated": "[REVIEW] Enable/disable package acquisition on the web. This enables IntelliSense for imported packages. Requires `#typescript.tsserver.web.projectWideIntellisense.enabled#`. Currently not supported for Safari.",
+      "length_en": 206,
+      "length_vi": 210
+    },
+    {
+      "key": "extensions/typescript-language-features.walkthroughs.nodejsWelcome.downloadNode.forMacOrWindows.description",
+      "original": "[EN] Node.js is an easy way to run JavaScript code. You can use it to quickly build command-line apps and servers. It also comes with npm, a package manager which makes reusing and sharing JavaScript code easy.\n[Install Node.js](https://nodejs.org/en/download/)",
+      "translated": "[REVIEW] Node.js is an easy way to run JavaScript code. You can use it to quickly build command-line apps and servers. It also comes with npm, a package manager which makes reusing and sharing JavaScript code easy.\n[Install Node.js](https://nodejs.org/en/download/)",
+      "length_en": 261,
+      "length_vi": 265
+    },
+    {
+      "key": "extensions/typescript-language-features.walkthroughs.nodejsWelcome.downloadNode.forLinux.description",
+      "original": "[EN] Node.js is an easy way to run JavaScript code. You can use it to quickly build command-line apps and servers. It also comes with npm, a package manager which makes reusing and sharing JavaScript code easy.\n[Install Node.js](https://nodejs.org/en/download/package-manager/)",
+      "translated": "[REVIEW] Node.js is an easy way to run JavaScript code. You can use it to quickly build command-line apps and servers. It also comes with npm, a package manager which makes reusing and sharing JavaScript code easy.\n[Install Node.js](https://nodejs.org/en/download/package-manager/)",
+      "length_en": 277,
+      "length_vi": 281
+    },
+    {
+      "key": "extensions/typescript-language-features.walkthroughs.nodejsWelcome.makeJsFile.description",
+      "original": "[EN] Let's write our first JavaScript file. We'll have to create a new file and save it with the ``.js`` extension at the end of the file name.\n[Create a JavaScript File](command:javascript-walkthrough.commands.createJsFile)",
+      "translated": "[REVIEW] Let's write our first JavaScript file. We'll have to create a new file and save it with the ``.js`` extension at the end of the file name.\n[Create a JavaScript File](command:javascript-walkthrough.commands.createJsFile)",
+      "length_en": 224,
+      "length_vi": 228
+    },
+    {
+      "key": "extensions/typescript-language-features.walkthroughs.nodejsWelcome.debugJsFile.description",
+      "original": "[EN] Once you've installed Node.js, you can run JavaScript programs at a terminal by entering ``node your-file-name.js``\nAnother easy way to run Node.js programs is by using VS Code's debugger which lets you run your code, pause at different points, and help you understand what's going on step-by-step.\n[Start Debugging](command:javascript-walkthrough.commands.debugJsFile)",
+      "translated": "[REVIEW] Once you've installed Node.js, you can run JavaScript programs at a terminal by entering ``node your-file-name.js``\nAnother easy way to run Node.js programs is by using VS Code's debugger which lets you run your code, pause at different points, and help you understand what's going on step-by-step.\n[Start Debugging](command:javascript-walkthrough.commands.debugJsFile)",
+      "length_en": 374,
+      "length_vi": 378
+    },
+    {
+      "key": "extensions/typescript-language-features.walkthroughs.nodejsWelcome.learnMoreAboutJs.description",
+      "original": "[EN] Want to get more comfortable with JavaScript, Node.js, and VS Code? Be sure to check out our docs!\nWe've got lots of resources for learning [JavaScript](https://code.visualstudio.com/docs/nodejs/working-with-javascript) and [Node.js](https://code.visualstudio.com/docs/nodejs/nodejs-tutorial).\n\n[Learn More](https://code.visualstudio.com/docs/nodejs/nodejs-tutorial)",
+      "translated": "[REVIEW] Want to get more comfortable with JavaScript, Node.js, and VS Code? Be sure to check out our docs!\nWe've got lots of resources for learning [JavaScript](https://code.visualstudio.com/docs/nodejs/working-with-javascript) and [Node.js](https://code.visualstudio.com/docs/nodejs/nodejs-tutorial).\n\n[Learn More](https://code.visualstudio.com/docs/nodejs/nodejs-tutorial)",
+      "length_en": 371,
+      "length_vi": 375
+    }
+  ]
+}

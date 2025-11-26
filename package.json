@@ -3,10 +3,10 @@
   "displayName": "Vietnamese Language Pack for Visual Studio Code",
   "description": "Language pack extension for Vietnamese",
   "icon": "icon.png",
-  "version": "2.2.0",
-  "publisher": "HoangNghia-HoangGia",
+  "version": "3.2.0",
+  "publisher": "vietnamese-community",
   "engines": {
-    "vscode": "^1.60.0"
+    "vscode": "^1.90.0"
   },
   "license": "MIT",
   "categories": [

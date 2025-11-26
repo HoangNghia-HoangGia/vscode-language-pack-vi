@@ -1,0 +1,32 @@
+======================================================================
+MAIN.I18N.JSON TRANSLATION WORKFLOW SUMMARY
+======================================================================
+
+Total entries to translate: 1106
+
+CRITICAL (manual translation):   166 entries
+MEDIUM (AI + review):            850 entries
+SIMPLE (AI auto):                 90 entries
+Already translated:               95 entries
+
+======================================================================
+WORKFLOW:
+======================================================================
+1. Start với 01_CRITICAL_manual_translation.json
+   → Dịch thủ công từng entry
+   → Đảm bảo dev terms chính xác
+   → Đảm bảo UI không bị vỡ layout
+
+2. Process 02_MEDIUM_ai_with_review.json
+   → Có thể dùng AI hỗ trợ
+   → NHƯNG phải review từng entry
+   → Flag các entry nghi ngờ
+
+3. Process 03_SIMPLE_ai_auto.json
+   → AI dịch với validation tự động
+   → Spot-check 10-20% để đảm bảo
+
+4. Merge results back to main.i18n.json
+   → Run validation script
+   → Fix all issues
+   → Test trong VS Code

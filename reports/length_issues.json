@@ -1,0 +1,242 @@
+[
+  {
+    "key": "extensions/media-preview.displayName",
+    "english": "[EN] Media Preview",
+    "translated": "[AI] Media Preview (AI dịch)",
+    "en_len": 18,
+    "tr_len": 28,
+    "ratio": 1.56
+  },
+  {
+    "key": "extensions/media-preview.command.zoomIn",
+    "english": "[EN] Zoom in",
+    "translated": "[AI] Zoom in (AI dịch)",
+    "en_len": 12,
+    "tr_len": 22,
+    "ratio": 1.83
+  },
+  {
+    "key": "extensions/media-preview.command.zoomOut",
+    "english": "[EN] Zoom out",
+    "translated": "[AI] Zoom out (AI dịch)",
+    "en_len": 13,
+    "tr_len": 23,
+    "ratio": 1.77
+  },
+  {
+    "key": "extensions/media-preview.command.copyImage",
+    "english": "[EN] Copy",
+    "translated": "[AI] Copy (AI dịch)",
+    "en_len": 9,
+    "tr_len": 19,
+    "ratio": 2.11
+  },
+  {
+    "key": "extensions/merge-conflict.command.category",
+    "english": "[EN] Merge Conflict",
+    "translated": "[AI] Merge Conflict (AI dịch)",
+    "en_len": 19,
+    "tr_len": 29,
+    "ratio": 1.53
+  },
+  {
+    "key": "extensions/merge-conflict.command.accept.current",
+    "english": "[EN] Accept Current",
+    "translated": "[AI] Accept Current (AI dịch)",
+    "en_len": 19,
+    "tr_len": 29,
+    "ratio": 1.53
+  },
+  {
+    "key": "extensions/merge-conflict.command.accept.both",
+    "english": "[EN] Accept Both",
+    "translated": "[AI] Accept Both (AI dịch)",
+    "en_len": 16,
+    "tr_len": 26,
+    "ratio": 1.62
+  },
+  {
+    "key": "extensions/merge-conflict.command.next",
+    "english": "[EN] Next Conflict",
+    "translated": "[AI] Next Conflict (AI dịch)",
+    "en_len": 18,
+    "tr_len": 28,
+    "ratio": 1.56
+  },
+  {
+    "key": "extensions/merge-conflict.config.title",
+    "english": "[EN] Merge Conflict",
+    "translated": "[AI] Merge Conflict (AI dịch)",
+    "en_len": 19,
+    "tr_len": 29,
+    "ratio": 1.53
+  },
+  {
+    "key": "extensions/npm.view.name",
+    "english": "[EN] NPM Scripts",
+    "translated": "[AI] NPM Scripts (AI dịch)",
+    "en_len": 16,
+    "tr_len": 26,
+    "ratio": 1.62
+  },
+  {
+    "key": "extensions/npm.command.refresh",
+    "english": "[EN] Refresh",
+    "translated": "[AI] Refresh (AI dịch)",
+    "en_len": 12,
+    "tr_len": 22,
+    "ratio": 1.83
+  },
+  {
+    "key": "extensions/npm.command.run",
+    "english": "[EN] Run",
+    "translated": "[AI] Run (AI dịch)",
+    "en_len": 8,
+    "tr_len": 18,
+    "ratio": 2.25
+  },
+  {
+    "key": "extensions/npm.command.openScript",
+    "english": "[EN] Open",
+    "translated": "[AI] Open (AI dịch)",
+    "en_len": 9,
+    "tr_len": 19,
+    "ratio": 2.11
+  },
+  {
+    "key": "extensions/npm.command.runInstall",
+    "english": "[EN] Run Install",
+    "translated": "[AI] Run Install (AI dịch)",
+    "en_len": 16,
+    "tr_len": 26,
+    "ratio": 1.62
+  },
+  {
+    "key": "extensions/npm.command.runSelectedScript",
+    "english": "[EN] Run Script",
+    "translated": "[AI] Run Script (AI dịch)",
+    "en_len": 15,
+    "tr_len": 25,
+    "ratio": 1.67
+  },
+  {
+    "key": "extensions/references-view.container.title",
+    "english": "[EN] References",
+    "translated": "[AI] References (AI dịch)",
+    "en_len": 15,
+    "tr_len": 25,
+    "ratio": 1.67
+  },
+  {
+    "key": "extensions/references-view.cmd.category.references",
+    "english": "[EN] References",
+    "translated": "[AI] References (AI dịch)",
+    "en_len": 15,
+    "tr_len": 25,
+    "ratio": 1.67
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.clearHistory",
+    "english": "[EN] Clear History",
+    "translated": "[AI] Clear History (AI dịch)",
+    "en_len": 18,
+    "tr_len": 28,
+    "ratio": 1.56
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.clear",
+    "english": "[EN] Clear",
+    "translated": "[AI] Clear (AI dịch)",
+    "en_len": 10,
+    "tr_len": 20,
+    "ratio": 2.0
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.refresh",
+    "english": "[EN] Refresh",
+    "translated": "[AI] Refresh (AI dịch)",
+    "en_len": 12,
+    "tr_len": 22,
+    "ratio": 1.83
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.pickFromHistory",
+    "english": "[EN] Show History",
+    "translated": "[AI] Show History (AI dịch)",
+    "en_len": 17,
+    "tr_len": 27,
+    "ratio": 1.59
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.removeReferenceItem",
+    "english": "[EN] Dismiss",
+    "translated": "[AI] Dismiss (AI dịch)",
+    "en_len": 12,
+    "tr_len": 22,
+    "ratio": 1.83
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.copy",
+    "english": "[EN] Copy",
+    "translated": "[AI] Copy (AI dịch)",
+    "en_len": 9,
+    "tr_len": 19,
+    "ratio": 2.11
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.copyAll",
+    "english": "[EN] Copy All",
+    "translated": "[AI] Copy All (AI dịch)",
+    "en_len": 13,
+    "tr_len": 23,
+    "ratio": 1.77
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.copyPath",
+    "english": "[EN] Copy Path",
+    "translated": "[AI] Copy Path (AI dịch)",
+    "en_len": 14,
+    "tr_len": 24,
+    "ratio": 1.71
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.refind",
+    "english": "[EN] Rerun",
+    "translated": "[AI] Rerun (AI dịch)",
+    "en_len": 10,
+    "tr_len": 20,
+    "ratio": 2.0
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.removeCallItem",
+    "english": "[EN] Dismiss",
+    "translated": "[AI] Dismiss (AI dịch)",
+    "en_len": 12,
+    "tr_len": 22,
+    "ratio": 1.83
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.showSubtypes",
+    "english": "[EN] Show Subtypes",
+    "translated": "[AI] Show Subtypes (AI dịch)",
+    "en_len": 18,
+    "tr_len": 28,
+    "ratio": 1.56
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.removeTypeItem",
+    "english": "[EN] Dismiss",
+    "translated": "[AI] Dismiss (AI dịch)",
+    "en_len": 12,
+    "tr_len": 22,
+    "ratio": 1.83
+  },
+  {
+    "key": "extensions/tunnel-forwarding.command.showLog",
+    "english": "[EN] Show Log",
+    "translated": "[AI] Show Log (AI dịch)",
+    "en_len": 13,
+    "tr_len": 23,
+    "ratio": 1.77
+  }
+]

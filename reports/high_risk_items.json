@@ -1,0 +1,600 @@
+[
+  {
+    "key": "extensions/css-language-features.css.customData.desc",
+    "english": "[EN] A list of relative file paths pointing to JSON files following the [custom data format](https://github.com/microsoft/vscode-css-languageservice/blob/master/docs/customData.md).\n\nVS Code loads custom data on startup to enhance its CSS support for CSS custom properties (variables), at-rules, pseudo-classes, and pseudo-elements you specify in the JSON files.\n\nThe file paths are relative to workspace and only workspace folder settings are considered.",
+    "translated": "[EN] A list of relative file paths pointing to JSON files following the [custom data format](https://github.com/microsoft/vscode-css-languageservice/blob/master/docs/customData.md).\n\nVS Code loads custom data on startup to enhance its CSS support for CSS custom properties (variables), at-rules, pseudo-classes, and pseudo-elements you specify in the JSON files.\n\nThe file paths are relative to workspace and only workspace folder settings are considered.",
+    "reasons": [
+      "safe_term_not_preserved:Git",
+      "safe_term_not_preserved:GitHub"
+    ]
+  },
+  {
+    "key": "extensions/css-language-features.css.format.maxPreserveNewLines.desc",
+    "english": "[EN] Maximum number of line breaks to be preserved in one chunk, when `#css.format.preserveNewLines#` is enabled.",
+    "translated": "[EN] Maximum number of line breaks to be preserved in one chunk, when `#css.format.preserveNewLines#` is enabled.",
+    "reasons": [
+      "safe_term_not_preserved:CSS"
+    ]
+  },
+  {
+    "key": "extensions/css-language-features.scss.format.maxPreserveNewLines.desc",
+    "english": "[EN] Maximum number of line breaks to be preserved in one chunk, when `#scss.format.preserveNewLines#` is enabled.",
+    "translated": "[EN] Maximum number of line breaks to be preserved in one chunk, when `#scss.format.preserveNewLines#` is enabled.",
+    "reasons": [
+      "safe_term_not_preserved:CSS"
+    ]
+  },
+  {
+    "key": "extensions/css-language-features.css.colorDecorators.enable.deprecationMessage",
+    "english": "[EN] The setting `css.colorDecorators.enable` has been deprecated in favor of `editor.colorDecorators`.",
+    "translated": "[EN] The setting `css.colorDecorators.enable` has been deprecated in favor of `editor.colorDecorators`.",
+    "reasons": [
+      "safe_term_not_preserved:CSS"
+    ]
+  },
+  {
+    "key": "extensions/css-language-features.scss.colorDecorators.enable.deprecationMessage",
+    "english": "[EN] The setting `scss.colorDecorators.enable` has been deprecated in favor of `editor.colorDecorators`.",
+    "translated": "[EN] The setting `scss.colorDecorators.enable` has been deprecated in favor of `editor.colorDecorators`.",
+    "reasons": [
+      "safe_term_not_preserved:CSS"
+    ]
+  },
+  {
+    "key": "extensions/emmet.emmetShowExpandedAbbreviation",
+    "english": "[EN] Shows expanded Emmet abbreviations as suggestions.\nThe option `\"inMarkupAndStylesheetFilesOnly\"` applies to html, haml, jade, slim, xml, xsl, css, scss, sass, less and stylus.\nThe option `\"always\"` applies to all parts of the file regardless of markup/css.",
+    "translated": "[EN] Shows expanded Emmet abbreviations as suggestions.\nThe option `\"inMarkupAndStylesheetFilesOnly\"` applies to html, haml, jade, slim, xml, xsl, css, scss, sass, less and stylus.\nThe option `\"always\"` applies to all parts of the file regardless of markup/css.",
+    "reasons": [
+      "safe_term_not_preserved:HTML",
+      "safe_term_not_preserved:CSS"
+    ]
+  },
+  {
+    "key": "extensions/emmet.emmetIncludeLanguages",
+    "english": "[EN] Enable Emmet abbreviations in languages that are not supported by default. Add a mapping here between the language and Emmet supported language.\n For example: `{\"vue-html\": \"html\", \"javascript\": \"javascriptreact\"}`",
+    "translated": "[EN] Enable Emmet abbreviations in languages that are not supported by default. Add a mapping here between the language and Emmet supported language.\n For example: `{\"vue-html\": \"html\", \"javascript\": \"javascriptreact\"}`",
+    "reasons": [
+      "safe_term_not_preserved:HTML",
+      "safe_term_not_preserved:JavaScript"
+    ]
+  },
+  {
+    "key": "extensions/emmet.emmetPreferencesOutputSelfClosingStyle",
+    "english": "[EN] Style of self-closing tags: html (`<br>`), xml (`<br/>`) or xhtml (`<br />`).",
+    "translated": "[EN] Style of self-closing tags: html (`<br>`), xml (`<br/>`) or xhtml (`<br />`).",
+    "reasons": [
+      "safe_term_not_preserved:HTML"
+    ]
+  },
+  {
+    "key": "extensions/git.command.ignore",
+    "english": "[EN] Add to .gitignore",
+    "translated": "[EN] Add to .gitignore",
+    "reasons": [
+      "safe_term_not_preserved:Git"
+    ]
+  },
+  {
+    "key": "extensions/git.config.autofetchPeriod",
+    "english": "[EN] Duration in seconds between each automatic git fetch, when `#git.autofetch#` is enabled.",
+    "translated": "[EN] Duration in seconds between each automatic git fetch, when `#git.autofetch#` is enabled.",
+    "reasons": [
+      "safe_term_not_preserved:Git"
+    ]
+  },
+  {
+    "key": "extensions/git.config.branchProtection",
+    "english": "[EN] List of protected branches. By default, a prompt is shown before changes are committed to a protected branch. The prompt can be controlled using the `#git.branchProtectionPrompt#`  setting.",
+    "translated": "[EN] List of protected branches. By default, a prompt is shown before changes are committed to a protected branch. The prompt can be controlled using the `#git.branchProtectionPrompt#`  setting.",
+    "reasons": [
+      "safe_term_not_preserved:Git"
+    ]
+  },
+  {
+    "key": "extensions/git.config.verboseCommit",
+    "english": "[EN] Enable verbose output when `#git.useEditorAsCommitInput#` is enabled.",
+    "translated": "[EN] Enable verbose output when `#git.useEditorAsCommitInput#` is enabled.",
+    "reasons": [
+      "safe_term_not_preserved:Git"
+    ]
+  },
+  {
+    "key": "extensions/git.config.postCommitCommand",
+    "english": "[EN] Run a git command after a successful commit.",
+    "translated": "[EN] Run a git command after a successful commit.",
+    "reasons": [
+      "safe_term_not_preserved:Git"
+    ]
+  },
+  {
+    "key": "extensions/git.config.postCommitCommand.push",
+    "english": "[EN] Run 'git push' after a successful commit.",
+    "translated": "[EN] Run 'git push' after a successful commit.",
+    "reasons": [
+      "safe_term_not_preserved:Git"
+    ]
+  },
+  {
+    "key": "extensions/git.config.postCommitCommand.sync",
+    "english": "[EN] Run 'git pull' and 'git push' after a successful commit.",
+    "translated": "[EN] Run 'git pull' and 'git push' after a successful commit.",
+    "reasons": [
+      "safe_term_not_preserved:Git"
+    ]
+  },
+  {
+    "key": "extensions/git.config.rememberPostCommitCommand",
+    "english": "[EN] Remember the last git command that ran after a commit.",
+    "translated": "[EN] Remember the last git command that ran after a commit.",
+    "reasons": [
+      "safe_term_not_preserved:Git"
+    ]
+  },
+  {
+    "key": "extensions/git.config.inputValidationSubjectLength",
+    "english": "[EN] Controls the commit message subject length threshold for showing a warning. Unset it to inherit the value of `#git.inputValidationLength#`.",
+    "translated": "[EN] Controls the commit message subject length threshold for showing a warning. Unset it to inherit the value of `#git.inputValidationLength#`.",
+    "reasons": [
+      "safe_term_not_preserved:Git"
+    ]
+  },
+  {
+    "key": "extensions/git.config.useIntegratedAskPass",
+    "english": "[EN] Controls whether GIT_ASKPASS should be overwritten to use the integrated version.",
+    "translated": "[EN] Controls whether GIT_ASKPASS should be overwritten to use the integrated version.",
+    "reasons": [
+      "safe_term_not_preserved:Git"
+    ]
+  },
+  {
+    "key": "extensions/git.config.optimisticUpdate",
+    "english": "[EN] Controls whether to optimistically update the state of the Source Control view after running git commands.",
+    "translated": "[EN] Controls whether to optimistically update the state of the Source Control view after running git commands.",
+    "reasons": [
+      "safe_term_not_preserved:Git"
+    ]
+  },
+  {
+    "key": "extensions/git.config.blameEditorDecoration.template",
+    "english": "[EN] Template for the blame information editor decoration. Supported variables:\n\n* `hash`: Commit hash\n\n* `hashShort`: First N characters of the commit hash according to `#git.commitShortHashLength#`\n\n* `subject`: First line of the commit message\n\n* `authorName`: Author name\n\n* `authorEmail`: Author email\n\n* `authorDate`: Author date\n\n* `authorDateAgo`: Time difference between now and the author date\n\n",
+    "translated": "[EN] Template for the blame information editor decoration. Supported variables:\n\n* `hash`: Commit hash\n\n* `hashShort`: First N characters of the commit hash according to `#git.commitShortHashLength#`\n\n* `subject`: First line of the commit message\n\n* `authorName`: Author name\n\n* `authorEmail`: Author email\n\n* `authorDate`: Author date\n\n* `authorDateAgo`: Time difference between now and the author date\n\n",
+    "reasons": [
+      "safe_term_not_preserved:Git"
+    ]
+  },
+  {
+    "key": "extensions/git.config.blameStatusBarItem.template",
+    "english": "[EN] Template for the blame information status bar item. Supported variables:\n\n* `hash`: Commit hash\n\n* `hashShort`: First N characters of the commit hash according to `#git.commitShortHashLength#`\n\n* `subject`: First line of the commit message\n\n* `authorName`: Author name\n\n* `authorEmail`: Author email\n\n* `authorDate`: Author date\n\n* `authorDateAgo`: Time difference between now and the author date\n\n",
+    "translated": "[EN] Template for the blame information status bar item. Supported variables:\n\n* `hash`: Commit hash\n\n* `hashShort`: First N characters of the commit hash according to `#git.commitShortHashLength#`\n\n* `subject`: First line of the commit message\n\n* `authorName`: Author name\n\n* `authorEmail`: Author email\n\n* `authorDate`: Author date\n\n* `authorDateAgo`: Time difference between now and the author date\n\n",
+    "reasons": [
+      "safe_term_not_preserved:Git"
+    ]
+  },
+  {
+    "key": "extensions/html-language-features.html.customData.desc",
+    "english": "[EN] A list of relative file paths pointing to JSON files following the [custom data format](https://github.com/microsoft/vscode-html-languageservice/blob/master/docs/customData.md).\n\nVS Code loads custom data on startup to enhance its HTML support for the custom HTML tags, attributes and attribute values you specify in the JSON files.\n\nThe file paths are relative to workspace and only workspace folder settings are considered.",
+    "translated": "[EN] A list of relative file paths pointing to JSON files following the [custom data format](https://github.com/microsoft/vscode-html-languageservice/blob/master/docs/customData.md).\n\nVS Code loads custom data on startup to enhance its HTML support for the custom HTML tags, attributes and attribute values you specify in the JSON files.\n\nThe file paths are relative to workspace and only workspace folder settings are considered.",
+    "reasons": [
+      "safe_term_not_preserved:Git",
+      "safe_term_not_preserved:GitHub"
+    ]
+  },
+  {
+    "key": "extensions/html-language-features.html.format.unformatted.desc",
+    "english": "[EN] List of tags, comma separated, that shouldn't be reformatted. `null` defaults to all tags listed at https://www.w3.org/TR/html5/dom.html#phrasing-content.",
+    "translated": "[EN] List of tags, comma separated, that shouldn't be reformatted. `null` defaults to all tags listed at https://www.w3.org/TR/html5/dom.html#phrasing-content.",
+    "reasons": [
+      "safe_term_not_preserved:HTML"
+    ]
+  },
+  {
+    "key": "extensions/html-language-features.html.format.extraLiners.desc",
+    "english": "[EN] List of tags, comma separated, that should have an extra newline before them. `null` defaults to `\"head, body, /html\"`.",
+    "translated": "[EN] List of tags, comma separated, that should have an extra newline before them. `null` defaults to `\"head, body, /html\"`.",
+    "reasons": [
+      "safe_term_not_preserved:HTML"
+    ]
+  },
+  {
+    "key": "extensions/html-language-features.html.format.wrapAttributesIndentSize.desc",
+    "english": "[EN] Indent wrapped attributes to after N characters. Use `null` to use the default indent size. Ignored if `#html.format.wrapAttributes#` is set to `aligned`.",
+    "translated": "[EN] Indent wrapped attributes to after N characters. Use `null` to use the default indent size. Ignored if `#html.format.wrapAttributes#` is set to `aligned`.",
+    "reasons": [
+      "safe_term_not_preserved:HTML"
+    ]
+  },
+  {
+    "key": "extensions/json-language-features.json.colorDecorators.enable.deprecationMessage",
+    "english": "[EN] The setting `json.colorDecorators.enable` has been deprecated in favor of `editor.colorDecorators`.",
+    "translated": "[EN] The setting `json.colorDecorators.enable` has been deprecated in favor of `editor.colorDecorators`.",
+    "reasons": [
+      "safe_term_not_preserved:JSON"
+    ]
+  },
+  {
+    "key": "extensions/media-preview.command.zoomIn",
+    "english": "[EN] Zoom in",
+    "translated": "[AI] Zoom in (AI dịch)",
+    "reasons": [
+      "length_ratio_high:1.83"
+    ]
+  },
+  {
+    "key": "extensions/media-preview.command.zoomOut",
+    "english": "[EN] Zoom out",
+    "translated": "[AI] Zoom out (AI dịch)",
+    "reasons": [
+      "length_ratio_high:1.77"
+    ]
+  },
+  {
+    "key": "extensions/media-preview.command.copyImage",
+    "english": "[EN] Copy",
+    "translated": "[AI] Copy (AI dịch)",
+    "reasons": [
+      "length_ratio_high:2.11"
+    ]
+  },
+  {
+    "key": "extensions/merge-conflict.command.accept.both",
+    "english": "[EN] Accept Both",
+    "translated": "[AI] Accept Both (AI dịch)",
+    "reasons": [
+      "length_ratio_high:1.62"
+    ]
+  },
+  {
+    "key": "extensions/npm.displayName",
+    "english": "[EN] NPM support for VS Code",
+    "translated": "[EN] NPM support for VS Code",
+    "reasons": [
+      "safe_term_not_preserved:npm"
+    ]
+  },
+  {
+    "key": "extensions/npm.config.npm.enableScriptExplorer",
+    "english": "[EN] Enable an explorer view for npm scripts when there is no top-level 'package.json' file.",
+    "translated": "[EN] Enable an explorer view for npm scripts when there is no top-level 'package.json' file.",
+    "reasons": [
+      "safe_term_not_preserved:JSON"
+    ]
+  },
+  {
+    "key": "extensions/npm.config.npm.scriptExplorerAction",
+    "english": "[EN] The default click action used in the NPM Scripts Explorer: `open` or `run`, the default is `open`.",
+    "translated": "[EN] The default click action used in the NPM Scripts Explorer: `open` or `run`, the default is `open`.",
+    "reasons": [
+      "safe_term_not_preserved:npm"
+    ]
+  },
+  {
+    "key": "extensions/npm.config.npm.scriptExplorerExclude",
+    "english": "[EN] An array of regular expressions that indicate which scripts should be excluded from the NPM Scripts view.",
+    "translated": "[EN] An array of regular expressions that indicate which scripts should be excluded from the NPM Scripts view.",
+    "reasons": [
+      "safe_term_not_preserved:npm"
+    ]
+  },
+  {
+    "key": "extensions/npm.npm.parseError",
+    "english": "[EN] Npm task detection: failed to parse the file {0}",
+    "translated": "[EN] Npm task detection: failed to parse the file {0}",
+    "reasons": [
+      "safe_term_not_preserved:npm"
+    ]
+  },
+  {
+    "key": "extensions/npm.taskdef.path",
+    "english": "[EN] The path to the folder of the package.json file that provides the script. Can be omitted.",
+    "translated": "[EN] The path to the folder of the package.json file that provides the script. Can be omitted.",
+    "reasons": [
+      "safe_term_not_preserved:JSON"
+    ]
+  },
+  {
+    "key": "extensions/npm.view.name",
+    "english": "[EN] NPM Scripts",
+    "translated": "[AI] NPM Scripts (AI dịch)",
+    "reasons": [
+      "safe_term_not_preserved:npm",
+      "length_ratio_high:1.62"
+    ]
+  },
+  {
+    "key": "extensions/npm.command.refresh",
+    "english": "[EN] Refresh",
+    "translated": "[AI] Refresh (AI dịch)",
+    "reasons": [
+      "length_ratio_high:1.83"
+    ]
+  },
+  {
+    "key": "extensions/npm.command.run",
+    "english": "[EN] Run",
+    "translated": "[AI] Run (AI dịch)",
+    "reasons": [
+      "length_ratio_high:2.25"
+    ]
+  },
+  {
+    "key": "extensions/npm.command.openScript",
+    "english": "[EN] Open",
+    "translated": "[AI] Open (AI dịch)",
+    "reasons": [
+      "length_ratio_high:2.11"
+    ]
+  },
+  {
+    "key": "extensions/npm.command.runInstall",
+    "english": "[EN] Run Install",
+    "translated": "[AI] Run Install (AI dịch)",
+    "reasons": [
+      "length_ratio_high:1.62"
+    ]
+  },
+  {
+    "key": "extensions/npm.command.runSelectedScript",
+    "english": "[EN] Run Script",
+    "translated": "[AI] Run Script (AI dịch)",
+    "reasons": [
+      "length_ratio_high:1.67"
+    ]
+  },
+  {
+    "key": "extensions/npm.command.runScriptFromFolder",
+    "english": "[EN] Run NPM Script in Folder...",
+    "translated": "[AI] Run NPM Script in Folder... (AI dịch)",
+    "reasons": [
+      "safe_term_not_preserved:npm"
+    ]
+  },
+  {
+    "key": "extensions/references-view.container.title",
+    "english": "[EN] References",
+    "translated": "[AI] References (AI dịch)",
+    "reasons": [
+      "length_ratio_high:1.67"
+    ]
+  },
+  {
+    "key": "extensions/references-view.cmd.category.references",
+    "english": "[EN] References",
+    "translated": "[AI] References (AI dịch)",
+    "reasons": [
+      "length_ratio_high:1.67"
+    ]
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.clear",
+    "english": "[EN] Clear",
+    "translated": "[AI] Clear (AI dịch)",
+    "reasons": [
+      "length_ratio_high:2.00"
+    ]
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.refresh",
+    "english": "[EN] Refresh",
+    "translated": "[AI] Refresh (AI dịch)",
+    "reasons": [
+      "length_ratio_high:1.83"
+    ]
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.removeReferenceItem",
+    "english": "[EN] Dismiss",
+    "translated": "[AI] Dismiss (AI dịch)",
+    "reasons": [
+      "length_ratio_high:1.83"
+    ]
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.copy",
+    "english": "[EN] Copy",
+    "translated": "[AI] Copy (AI dịch)",
+    "reasons": [
+      "length_ratio_high:2.11"
+    ]
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.copyAll",
+    "english": "[EN] Copy All",
+    "translated": "[AI] Copy All (AI dịch)",
+    "reasons": [
+      "length_ratio_high:1.77"
+    ]
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.copyPath",
+    "english": "[EN] Copy Path",
+    "translated": "[AI] Copy Path (AI dịch)",
+    "reasons": [
+      "length_ratio_high:1.71"
+    ]
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.refind",
+    "english": "[EN] Rerun",
+    "translated": "[AI] Rerun (AI dịch)",
+    "reasons": [
+      "length_ratio_high:2.00"
+    ]
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.removeCallItem",
+    "english": "[EN] Dismiss",
+    "translated": "[AI] Dismiss (AI dịch)",
+    "reasons": [
+      "length_ratio_high:1.83"
+    ]
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.removeTypeItem",
+    "english": "[EN] Dismiss",
+    "translated": "[AI] Dismiss (AI dịch)",
+    "reasons": [
+      "length_ratio_high:1.83"
+    ]
+  },
+  {
+    "key": "extensions/terminal-suggest.description",
+    "english": "[EN] Extension to add terminal completions for zsh, bash, and fish terminals.",
+    "translated": "[EN] Extension to add terminal completions for zsh, bash, and fish terminals.",
+    "reasons": [
+      "safe_term_not_preserved:Terminal"
+    ]
+  },
+  {
+    "key": "extensions/tunnel-forwarding.command.showLog",
+    "english": "[EN] Show Log",
+    "translated": "[AI] Show Log (AI dịch)",
+    "reasons": [
+      "length_ratio_high:1.77"
+    ]
+  },
+  {
+    "key": "extensions/typescript-language-features.typescript.disableAutomaticTypeAcquisition",
+    "english": "[EN] Disables [automatic type acquisition](https://code.visualstudio.com/docs/nodejs/working-with-javascript#_typings-and-automatic-type-acquisition). Automatic type acquisition fetches `@types` packages from npm to improve IntelliSense for external libraries.",
+    "translated": "[EN] Disables [automatic type acquisition](https://code.visualstudio.com/docs/nodejs/working-with-javascript#_typings-and-automatic-type-acquisition). Automatic type acquisition fetches `@types` packages from npm to improve IntelliSense for external libraries.",
+    "reasons": [
+      "safe_term_not_preserved:JavaScript"
+    ]
+  },
+  {
+    "key": "extensions/typescript-language-features.typescript.npm",
+    "english": "[EN] Specifies the path to the npm executable used for [Automatic Type Acquisition](https://code.visualstudio.com/docs/nodejs/working-with-javascript#_typings-and-automatic-type-acquisition).",
+    "translated": "[EN] Specifies the path to the npm executable used for [Automatic Type Acquisition](https://code.visualstudio.com/docs/nodejs/working-with-javascript#_typings-and-automatic-type-acquisition).",
+    "reasons": [
+      "safe_term_not_preserved:JavaScript"
+    ]
+  },
+  {
+    "key": "extensions/typescript-language-features.typescript.check.npmIsInstalled",
+    "english": "[EN] Check if npm is installed for [Automatic Type Acquisition](https://code.visualstudio.com/docs/nodejs/working-with-javascript#_typings-and-automatic-type-acquisition).",
+    "translated": "[EN] Check if npm is installed for [Automatic Type Acquisition](https://code.visualstudio.com/docs/nodejs/working-with-javascript#_typings-and-automatic-type-acquisition).",
+    "reasons": [
+      "safe_term_not_preserved:JavaScript"
+    ]
+  },
+  {
+    "key": "extensions/typescript-language-features.configuration.implicitProjectConfig.module",
+    "english": "[EN] Sets the module system for the program. See more: https://www.typescriptlang.org/tsconfig#module.",
+    "translated": "[EN] Sets the module system for the program. See more: https://www.typescriptlang.org/tsconfig#module.",
+    "reasons": [
+      "safe_term_not_preserved:TypeScript"
+    ]
+  },
+  {
+    "key": "extensions/typescript-language-features.configuration.implicitProjectConfig.target",
+    "english": "[EN] Set target JavaScript language version for emitted JavaScript and include library declarations. See more: https://www.typescriptlang.org/tsconfig#target.",
+    "translated": "[EN] Set target JavaScript language version for emitted JavaScript and include library declarations. See more: https://www.typescriptlang.org/tsconfig#target.",
+    "reasons": [
+      "safe_term_not_preserved:TypeScript"
+    ]
+  },
+  {
+    "key": "extensions/typescript-language-features.configuration.implicitProjectConfig.checkJs",
+    "english": "[EN] Enable/disable semantic checking of JavaScript files. Existing `jsconfig.json` or `tsconfig.json` files override this setting.",
+    "translated": "[EN] Enable/disable semantic checking of JavaScript files. Existing `jsconfig.json` or `tsconfig.json` files override this setting.",
+    "reasons": [
+      "safe_term_not_preserved:JSON"
+    ]
+  },
+  {
+    "key": "extensions/typescript-language-features.configuration.implicitProjectConfig.experimentalDecorators",
+    "english": "[EN] Enable/disable `experimentalDecorators` in JavaScript files that are not part of a project. Existing `jsconfig.json` or `tsconfig.json` files override this setting.",
+    "translated": "[EN] Enable/disable `experimentalDecorators` in JavaScript files that are not part of a project. Existing `jsconfig.json` or `tsconfig.json` files override this setting.",
+    "reasons": [
+      "safe_term_not_preserved:JSON"
+    ]
+  },
+  {
+    "key": "extensions/typescript-language-features.configuration.implicitProjectConfig.strictNullChecks",
+    "english": "[EN] Enable/disable [strict null checks](https://www.typescriptlang.org/tsconfig#strictNullChecks) in JavaScript and TypeScript files that are not part of a project. Existing `jsconfig.json` or `tsconfig.json` files override this setting.",
+    "translated": "[EN] Enable/disable [strict null checks](https://www.typescriptlang.org/tsconfig#strictNullChecks) in JavaScript and TypeScript files that are not part of a project. Existing `jsconfig.json` or `tsconfig.json` files override this setting.",
+    "reasons": [
+      "safe_term_not_preserved:JSON"
+    ]
+  },
+  {
+    "key": "extensions/typescript-language-features.configuration.implicitProjectConfig.strictFunctionTypes",
+    "english": "[EN] Enable/disable [strict function types](https://www.typescriptlang.org/tsconfig#strictFunctionTypes) in JavaScript and TypeScript files that are not part of a project. Existing `jsconfig.json` or `tsconfig.json` files override this setting.",
+    "translated": "[EN] Enable/disable [strict function types](https://www.typescriptlang.org/tsconfig#strictFunctionTypes) in JavaScript and TypeScript files that are not part of a project. Existing `jsconfig.json` or `tsconfig.json` files override this setting.",
+    "reasons": [
+      "safe_term_not_preserved:JSON"
+    ]
+  },
+  {
+    "key": "extensions/typescript-language-features.configuration.implicitProjectConfig.strict",
+    "english": "[EN] Enable/disable [strict mode](https://www.typescriptlang.org/tsconfig#strict) in JavaScript and TypeScript files that are not part of a project. Existing `jsconfig.json` or `tsconfig.json` files override this setting.",
+    "translated": "[EN] Enable/disable [strict mode](https://www.typescriptlang.org/tsconfig#strict) in JavaScript and TypeScript files that are not part of a project. Existing `jsconfig.json` or `tsconfig.json` files override this setting.",
+    "reasons": [
+      "safe_term_not_preserved:JSON"
+    ]
+  },
+  {
+    "key": "extensions/typescript-language-features.typescript.preferences.importModuleSpecifier.nonRelative",
+    "english": "[EN] Prefers a non-relative import based on the `baseUrl` or `paths` configured in your `jsconfig.json` / `tsconfig.json`.",
+    "translated": "[EN] Prefers a non-relative import based on the `baseUrl` or `paths` configured in your `jsconfig.json` / `tsconfig.json`.",
+    "reasons": [
+      "safe_term_not_preserved:JSON"
+    ]
+  },
+  {
+    "key": "extensions/typescript-language-features.javascript.preferences.jsxAttributeCompletionStyle.auto",
+    "english": "[EN] Insert `={}` or `=\"\"` after attribute names based on the prop type. See `#javascript.preferences.quoteStyle#` to control the type of quotes used for string attributes.",
+    "translated": "[EN] Insert `={}` or `=\"\"` after attribute names based on the prop type. See `#javascript.preferences.quoteStyle#` to control the type of quotes used for string attributes.",
+    "reasons": [
+      "safe_term_not_preserved:JavaScript"
+    ]
+  },
+  {
+    "key": "extensions/typescript-language-features.typescript.preferences.jsxAttributeCompletionStyle.auto",
+    "english": "[EN] Insert `={}` or `=\"\"` after attribute names based on the prop type. See `#typescript.preferences.quoteStyle#` to control the type of quotes used for string attributes.",
+    "translated": "[EN] Insert `={}` or `=\"\"` after attribute names based on the prop type. See `#typescript.preferences.quoteStyle#` to control the type of quotes used for string attributes.",
+    "reasons": [
+      "safe_term_not_preserved:TypeScript"
+    ]
+  },
+  {
+    "key": "extensions/typescript-language-features.typescript.preferences.includePackageJsonAutoImports",
+    "english": "[EN] Enable/disable searching `package.json` dependencies for available auto imports.",
+    "translated": "[EN] Enable/disable searching `package.json` dependencies for available auto imports.",
+    "reasons": [
+      "safe_term_not_preserved:JSON"
+    ]
+  },
+  {
+    "key": "extensions/typescript-language-features.typescript.preferences.autoImportFileExcludePatterns",
+    "english": "[EN] Specify glob patterns of files to exclude from auto imports. Relative paths are resolved relative to the workspace root. Patterns are evaluated using tsconfig.json [`exclude`](https://www.typescriptlang.org/tsconfig#exclude) semantics.",
+    "translated": "[EN] Specify glob patterns of files to exclude from auto imports. Relative paths are resolved relative to the workspace root. Patterns are evaluated using tsconfig.json [`exclude`](https://www.typescriptlang.org/tsconfig#exclude) semantics.",
+    "reasons": [
+      "safe_term_not_preserved:JSON",
+      "safe_term_not_preserved:TypeScript"
+    ]
+  },
+  {
+    "key": "extensions/typescript-language-features.configuration.tsserver.web.projectWideIntellisense.suppressSemanticErrors",
+    "english": "[EN] Suppresses semantic errors on web even when project wide IntelliSense is enabled. This is always on when project wide IntelliSense is not enabled or available. See `#typescript.tsserver.web.projectWideIntellisense.enabled#`",
+    "translated": "[EN] Suppresses semantic errors on web even when project wide IntelliSense is enabled. This is always on when project wide IntelliSense is not enabled or available. See `#typescript.tsserver.web.projectWideIntellisense.enabled#`",
+    "reasons": [
+      "safe_term_not_preserved:TypeScript"
+    ]
+  },
+  {
+    "key": "extensions/typescript-language-features.configuration.tsserver.web.typeAcquisition.enabled",
+    "english": "[EN] Enable/disable package acquisition on the web. This enables IntelliSense for imported packages. Requires `#typescript.tsserver.web.projectWideIntellisense.enabled#`. Currently not supported for Safari.",
+    "translated": "[EN] Enable/disable package acquisition on the web. This enables IntelliSense for imported packages. Requires `#typescript.tsserver.web.projectWideIntellisense.enabled#`. Currently not supported for Safari.",
+    "reasons": [
+      "safe_term_not_preserved:TypeScript"
+    ]
+  },
+  {
+    "key": "extensions/typescript-language-features.walkthroughs.nodejsWelcome.debugJsFile.description",
+    "english": "[EN] Once you've installed Node.js, you can run JavaScript programs at a terminal by entering ``node your-file-name.js``\nAnother easy way to run Node.js programs is by using VS Code's debugger which lets you run your code, pause at different points, and help you understand what's going on step-by-step.\n[Start Debugging](command:javascript-walkthrough.commands.debugJsFile)",
+    "translated": "[EN] Once you've installed Node.js, you can run JavaScript programs at a terminal by entering ``node your-file-name.js``\nAnother easy way to run Node.js programs is by using VS Code's debugger which lets you run your code, pause at different points, and help you understand what's going on step-by-step.\n[Start Debugging](command:javascript-walkthrough.commands.debugJsFile)",
+    "reasons": [
+      "safe_term_not_preserved:Terminal"
+    ]
+  }
+]

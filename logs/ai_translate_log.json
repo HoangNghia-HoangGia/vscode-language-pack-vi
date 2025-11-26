@@ -1,0 +1,667 @@
+[
+  {
+    "key": "extensions/emmet.command.wrapWithAbbreviation",
+    "english": "[EN] Wrap with Abbreviation",
+    "translated": "[DICT] Bọc với viết tắt",
+    "timestamp": "2025-11-26 14:49:07",
+    "unix_time": 1764143347.2591186
+  },
+  {
+    "key": "extensions/emmet.command.removeTag",
+    "english": "[EN] Remove Tag",
+    "translated": "[DICT] Xóa thẻ",
+    "timestamp": "2025-11-26 14:49:07",
+    "unix_time": 1764143347.6593828
+  },
+  {
+    "key": "extensions/emmet.command.updateTag",
+    "english": "[EN] Update Tag",
+    "translated": "[DICT] Cập nhật thẻ",
+    "timestamp": "2025-11-26 14:49:08",
+    "unix_time": 1764143348.059668
+  },
+  {
+    "key": "extensions/emmet.command.matchTag",
+    "english": "[EN] Go to Matching Pair",
+    "translated": "[DICT] Đi tới cặp khớp",
+    "timestamp": "2025-11-26 14:49:08",
+    "unix_time": 1764143348.4599261
+  },
+  {
+    "key": "extensions/emmet.command.balanceIn",
+    "english": "[EN] Balance (inward)",
+    "translated": "[DICT] Cân bằng (vào trong)",
+    "timestamp": "2025-11-26 14:49:08",
+    "unix_time": 1764143348.860383
+  },
+  {
+    "key": "extensions/emmet.command.balanceOut",
+    "english": "[EN] Balance (outward)",
+    "translated": "[DICT] Cân bằng (ra ngoài)",
+    "timestamp": "2025-11-26 14:49:09",
+    "unix_time": 1764143349.2604954
+  },
+  {
+    "key": "extensions/emmet.command.prevEditPoint",
+    "english": "[EN] Go to Previous Edit Point",
+    "translated": "[DICT] Đi tới điểm sửa trước",
+    "timestamp": "2025-11-26 14:49:09",
+    "unix_time": 1764143349.6609242
+  },
+  {
+    "key": "extensions/emmet.command.nextEditPoint",
+    "english": "[EN] Go to Next Edit Point",
+    "translated": "[DICT] Đi tới điểm sửa tiếp",
+    "timestamp": "2025-11-26 14:49:10",
+    "unix_time": 1764143350.06139
+  },
+  {
+    "key": "extensions/emmet.command.mergeLines",
+    "english": "[EN] Merge Lines",
+    "translated": "[DICT] Gộp dòng",
+    "timestamp": "2025-11-26 14:49:10",
+    "unix_time": 1764143350.4616828
+  },
+  {
+    "key": "extensions/emmet.command.selectPrevItem",
+    "english": "[EN] Select Previous Item",
+    "translated": "[DICT] Chọn mục trước",
+    "timestamp": "2025-11-26 14:49:10",
+    "unix_time": 1764143350.861959
+  },
+  {
+    "key": "extensions/emmet.command.selectNextItem",
+    "english": "[EN] Select Next Item",
+    "translated": "[DICT] Chọn mục tiếp",
+    "timestamp": "2025-11-26 14:49:11",
+    "unix_time": 1764143351.2623887
+  },
+  {
+    "key": "extensions/emmet.command.splitJoinTag",
+    "english": "[EN] Split/Join Tag",
+    "translated": "[DICT] Tách/Gộp thẻ",
+    "timestamp": "2025-11-26 14:49:11",
+    "unix_time": 1764143351.6626933
+  },
+  {
+    "key": "extensions/emmet.command.toggleComment",
+    "english": "[EN] Toggle Comment",
+    "translated": "[DICT] Bật/Tắt ghi chú",
+    "timestamp": "2025-11-26 14:49:12",
+    "unix_time": 1764143352.0629585
+  },
+  {
+    "key": "extensions/emmet.command.evaluateMathExpression",
+    "english": "[EN] Evaluate Math Expression",
+    "translated": "[DICT] Tính biểu thức toán",
+    "timestamp": "2025-11-26 14:49:12",
+    "unix_time": 1764143352.463271
+  },
+  {
+    "key": "extensions/emmet.command.updateImageSize",
+    "english": "[EN] Update Image Size",
+    "translated": "[DICT] Cập nhật kích thước ảnh",
+    "timestamp": "2025-11-26 14:49:12",
+    "unix_time": 1764143352.863467
+  },
+  {
+    "key": "extensions/emmet.command.reflectCSSValue",
+    "english": "[EN] Reflect CSS Value",
+    "translated": "[DICT] Phản ánh giá trị CSS",
+    "timestamp": "2025-11-26 14:49:13",
+    "unix_time": 1764143353.263767
+  },
+  {
+    "key": "extensions/emmet.command.incrementNumberByOne",
+    "english": "[EN] Increment by 1",
+    "translated": "[DICT] Tăng 1",
+    "timestamp": "2025-11-26 14:49:13",
+    "unix_time": 1764143353.6643167
+  },
+  {
+    "key": "extensions/emmet.command.decrementNumberByOne",
+    "english": "[EN] Decrement by 1",
+    "translated": "[DICT] Giảm 1",
+    "timestamp": "2025-11-26 14:49:14",
+    "unix_time": 1764143354.0647392
+  },
+  {
+    "key": "extensions/emmet.command.incrementNumberByOneTenth",
+    "english": "[EN] Increment by 0.1",
+    "translated": "[DICT] Tăng 0.1",
+    "timestamp": "2025-11-26 14:49:14",
+    "unix_time": 1764143354.4650252
+  },
+  {
+    "key": "extensions/emmet.command.decrementNumberByOneTenth",
+    "english": "[EN] Decrement by 0.1",
+    "translated": "[DICT] Giảm 0.1",
+    "timestamp": "2025-11-26 14:49:14",
+    "unix_time": 1764143354.865192
+  },
+  {
+    "key": "extensions/emmet.command.incrementNumberByTen",
+    "english": "[EN] Increment by 10",
+    "translated": "[DICT] Tăng 10",
+    "timestamp": "2025-11-26 14:49:15",
+    "unix_time": 1764143355.26562
+  },
+  {
+    "key": "extensions/emmet.command.decrementNumberByTen",
+    "english": "[EN] Decrement by 10",
+    "translated": "[DICT] Giảm 10",
+    "timestamp": "2025-11-26 14:49:15",
+    "unix_time": 1764143355.665678
+  },
+  {
+    "key": "extensions/emmet.command.showEmmetCommands",
+    "english": "[EN] Show Emmet Commands",
+    "translated": "[DICT] Hiện lệnh Emmet",
+    "timestamp": "2025-11-26 14:49:16",
+    "unix_time": 1764143356.0658407
+  },
+  {
+    "key": "extensions/ipynb.newUntitledIpynb.title",
+    "english": "[EN] New Jupyter Notebook",
+    "translated": "[DICT] Jupyter Notebook mới",
+    "timestamp": "2025-11-26 14:49:16",
+    "unix_time": 1764143356.4665892
+  },
+  {
+    "key": "extensions/ipynb.newUntitledIpynb.shortTitle",
+    "english": "[EN] Jupyter Notebook",
+    "translated": "[DICT] Jupyter Notebook",
+    "timestamp": "2025-11-26 14:49:16",
+    "unix_time": 1764143356.8673291
+  },
+  {
+    "key": "extensions/ipynb.cleanInvalidImageAttachment.title",
+    "english": "[EN] Clean Invalid Image Attachment Reference",
+    "translated": "[DICT] Xóa tham chiếu ảnh không hợp lệ",
+    "timestamp": "2025-11-26 14:49:17",
+    "unix_time": 1764143357.2682498
+  },
+  {
+    "key": "extensions/ipynb.copyCellOutput.title",
+    "english": "[EN] Copy Cell Output",
+    "translated": "[DICT] Sao chép đầu ra ô",
+    "timestamp": "2025-11-26 14:49:17",
+    "unix_time": 1764143357.6689358
+  },
+  {
+    "key": "extensions/ipynb.addCellOutputToChat.title",
+    "english": "[EN] Add Cell Output to Chat",
+    "translated": "[DICT] Thêm đầu ra ô vào chat",
+    "timestamp": "2025-11-26 14:49:18",
+    "unix_time": 1764143358.0690565
+  },
+  {
+    "key": "extensions/ipynb.openCellOutput.title",
+    "english": "[EN] Open Cell Output in Text Editor",
+    "translated": "[DICT] Mở đầu ra ô trong trình soạn",
+    "timestamp": "2025-11-26 14:49:18",
+    "unix_time": 1764143358.4691408
+  },
+  {
+    "key": "extensions/media-preview.displayName",
+    "english": "[EN] Media Preview",
+    "translated": "[AI] Media Preview (AI dịch)",
+    "timestamp": "2025-11-26 14:49:18",
+    "unix_time": 1764143358.869659
+  },
+  {
+    "key": "extensions/media-preview.description",
+    "english": "[EN] Provides VS Code's built-in previews for images, audio, and video",
+    "translated": "[AI] Provides VS Code's built-in previews for images, audio, and video (AI dịch)",
+    "timestamp": "2025-11-26 14:49:19",
+    "unix_time": 1764143359.269991
+  },
+  {
+    "key": "extensions/media-preview.videoPreviewerAutoPlay",
+    "english": "[EN] Start playing videos on mute automatically.",
+    "translated": "[AI] Start playing videos on mute automatically. (AI dịch)",
+    "timestamp": "2025-11-26 14:49:19",
+    "unix_time": 1764143359.670551
+  },
+  {
+    "key": "extensions/media-preview.videoPreviewerLoop",
+    "english": "[EN] Loop videos over again automatically.",
+    "translated": "[AI] Loop videos over again automatically. (AI dịch)",
+    "timestamp": "2025-11-26 14:49:20",
+    "unix_time": 1764143360.070608
+  },
+  {
+    "key": "extensions/media-preview.command.zoomIn",
+    "english": "[EN] Zoom in",
+    "translated": "[AI] Zoom in (AI dịch)",
+    "timestamp": "2025-11-26 14:49:20",
+    "unix_time": 1764143360.4706745
+  },
+  {
+    "key": "extensions/media-preview.command.zoomOut",
+    "english": "[EN] Zoom out",
+    "translated": "[AI] Zoom out (AI dịch)",
+    "timestamp": "2025-11-26 14:49:20",
+    "unix_time": 1764143360.8711455
+  },
+  {
+    "key": "extensions/media-preview.command.copyImage",
+    "english": "[EN] Copy",
+    "translated": "[AI] Copy (AI dịch)",
+    "timestamp": "2025-11-26 14:49:21",
+    "unix_time": 1764143361.2713869
+  },
+  {
+    "key": "extensions/media-preview.command.reopenAsPreview",
+    "english": "[EN] Reopen as image preview",
+    "translated": "[AI] Reopen as image preview (AI dịch)",
+    "timestamp": "2025-11-26 14:49:21",
+    "unix_time": 1764143361.671722
+  },
+  {
+    "key": "extensions/media-preview.command.reopenAsText",
+    "english": "[EN] Reopen as source text",
+    "translated": "[AI] Reopen as source text (AI dịch)",
+    "timestamp": "2025-11-26 14:49:22",
+    "unix_time": 1764143362.0731356
+  },
+  {
+    "key": "extensions/merge-conflict.command.category",
+    "english": "[EN] Merge Conflict",
+    "translated": "[AI] Merge Conflict (AI dịch)",
+    "timestamp": "2025-11-26 14:49:22",
+    "unix_time": 1764143362.4736226
+  },
+  {
+    "key": "extensions/merge-conflict.command.accept.all-current",
+    "english": "[EN] Accept All Current",
+    "translated": "[AI] Accept All Current (AI dịch)",
+    "timestamp": "2025-11-26 14:49:22",
+    "unix_time": 1764143362.8743627
+  },
+  {
+    "key": "extensions/merge-conflict.command.accept.all-incoming",
+    "english": "[EN] Accept All Incoming",
+    "translated": "[AI] Accept All Incoming (AI dịch)",
+    "timestamp": "2025-11-26 14:49:23",
+    "unix_time": 1764143363.2752285
+  },
+  {
+    "key": "extensions/merge-conflict.command.accept.all-both",
+    "english": "[EN] Accept All Both",
+    "translated": "[AI] Accept All Both (AI dịch)",
+    "timestamp": "2025-11-26 14:49:23",
+    "unix_time": 1764143363.6756036
+  },
+  {
+    "key": "extensions/merge-conflict.command.accept.current",
+    "english": "[EN] Accept Current",
+    "translated": "[AI] Accept Current (AI dịch)",
+    "timestamp": "2025-11-26 14:49:24",
+    "unix_time": 1764143364.075919
+  },
+  {
+    "key": "extensions/merge-conflict.command.accept.incoming",
+    "english": "[EN] Accept Incoming",
+    "translated": "[AI] Accept Incoming (AI dịch)",
+    "timestamp": "2025-11-26 14:49:24",
+    "unix_time": 1764143364.4764166
+  },
+  {
+    "key": "extensions/merge-conflict.command.accept.selection",
+    "english": "[EN] Accept Selection",
+    "translated": "[AI] Accept Selection (AI dịch)",
+    "timestamp": "2025-11-26 14:49:24",
+    "unix_time": 1764143364.8772397
+  },
+  {
+    "key": "extensions/merge-conflict.command.accept.both",
+    "english": "[EN] Accept Both",
+    "translated": "[AI] Accept Both (AI dịch)",
+    "timestamp": "2025-11-26 14:49:25",
+    "unix_time": 1764143365.2780309
+  },
+  {
+    "key": "extensions/merge-conflict.command.next",
+    "english": "[EN] Next Conflict",
+    "translated": "[AI] Next Conflict (AI dịch)",
+    "timestamp": "2025-11-26 14:49:25",
+    "unix_time": 1764143365.678292
+  },
+  {
+    "key": "extensions/merge-conflict.command.previous",
+    "english": "[EN] Previous Conflict",
+    "translated": "[AI] Previous Conflict (AI dịch)",
+    "timestamp": "2025-11-26 14:49:26",
+    "unix_time": 1764143366.078719
+  },
+  {
+    "key": "extensions/merge-conflict.command.compare",
+    "english": "[EN] Compare Current Conflict",
+    "translated": "[AI] Compare Current Conflict (AI dịch)",
+    "timestamp": "2025-11-26 14:49:26",
+    "unix_time": 1764143366.479001
+  },
+  {
+    "key": "extensions/merge-conflict.config.title",
+    "english": "[EN] Merge Conflict",
+    "translated": "[AI] Merge Conflict (AI dịch)",
+    "timestamp": "2025-11-26 14:49:26",
+    "unix_time": 1764143366.8794448
+  },
+  {
+    "key": "extensions/merge-conflict.config.diffViewPosition",
+    "english": "[EN] Controls where the diff view should be opened when comparing changes in merge conflicts.",
+    "translated": "[AI] Controls where the diff view should be opened when comparing changes in merge conflicts. (AI dịch)",
+    "timestamp": "2025-11-26 14:49:27",
+    "unix_time": 1764143367.279807
+  },
+  {
+    "key": "extensions/merge-conflict.config.diffViewPosition.current",
+    "english": "[EN] Open the diff view in the current editor group.",
+    "translated": "[AI] Open the diff view in the current editor group. (AI dịch)",
+    "timestamp": "2025-11-26 14:49:27",
+    "unix_time": 1764143367.681387
+  },
+  {
+    "key": "extensions/merge-conflict.config.diffViewPosition.beside",
+    "english": "[EN] Open the diff view next to the current editor group.",
+    "translated": "[AI] Open the diff view next to the current editor group. (AI dịch)",
+    "timestamp": "2025-11-26 14:49:28",
+    "unix_time": 1764143368.0816782
+  },
+  {
+    "key": "extensions/merge-conflict.config.diffViewPosition.below",
+    "english": "[EN] Open the diff view below the current editor group.",
+    "translated": "[AI] Open the diff view below the current editor group. (AI dịch)",
+    "timestamp": "2025-11-26 14:49:28",
+    "unix_time": 1764143368.4819977
+  },
+  {
+    "key": "extensions/npm.view.name",
+    "english": "[EN] NPM Scripts",
+    "translated": "[AI] NPM Scripts (AI dịch)",
+    "timestamp": "2025-11-26 14:49:28",
+    "unix_time": 1764143368.8822682
+  },
+  {
+    "key": "extensions/npm.command.refresh",
+    "english": "[EN] Refresh",
+    "translated": "[AI] Refresh (AI dịch)",
+    "timestamp": "2025-11-26 14:49:29",
+    "unix_time": 1764143369.282603
+  },
+  {
+    "key": "extensions/npm.command.run",
+    "english": "[EN] Run",
+    "translated": "[AI] Run (AI dịch)",
+    "timestamp": "2025-11-26 14:49:29",
+    "unix_time": 1764143369.6830237
+  },
+  {
+    "key": "extensions/npm.command.openScript",
+    "english": "[EN] Open",
+    "translated": "[AI] Open (AI dịch)",
+    "timestamp": "2025-11-26 14:49:30",
+    "unix_time": 1764143370.0894825
+  },
+  {
+    "key": "extensions/npm.command.runInstall",
+    "english": "[EN] Run Install",
+    "translated": "[AI] Run Install (AI dịch)",
+    "timestamp": "2025-11-26 14:49:30",
+    "unix_time": 1764143370.4897122
+  },
+  {
+    "key": "extensions/npm.command.runSelectedScript",
+    "english": "[EN] Run Script",
+    "translated": "[AI] Run Script (AI dịch)",
+    "timestamp": "2025-11-26 14:49:30",
+    "unix_time": 1764143370.8897696
+  },
+  {
+    "key": "extensions/npm.command.runScriptFromFolder",
+    "english": "[EN] Run NPM Script in Folder...",
+    "translated": "[AI] Run NPM Script in Folder... (AI dịch)",
+    "timestamp": "2025-11-26 14:49:31",
+    "unix_time": 1764143371.2901323
+  },
+  {
+    "key": "extensions/npm.command.packageManager",
+    "english": "[EN] Get Configured Package Manager",
+    "translated": "[AI] Get Configured Package Manager (AI dịch)",
+    "timestamp": "2025-11-26 14:49:31",
+    "unix_time": 1764143371.6905863
+  },
+  {
+    "key": "extensions/references-view.displayName",
+    "english": "[EN] Reference Search View",
+    "translated": "[AI] Reference Search View (AI dịch)",
+    "timestamp": "2025-11-26 14:49:32",
+    "unix_time": 1764143372.0908303
+  },
+  {
+    "key": "extensions/references-view.description",
+    "english": "[EN] Reference Search results as separate, stable view in the sidebar",
+    "translated": "[AI] Reference Search results as separate, stable view in the sidebar (AI dịch)",
+    "timestamp": "2025-11-26 14:49:32",
+    "unix_time": 1764143372.4911
+  },
+  {
+    "key": "extensions/references-view.config.references.preferredLocation",
+    "english": "[EN] Controls whether 'Peek References' or 'Find References' is invoked when selecting CodeLens references.",
+    "translated": "[AI] Controls whether 'Peek References' or 'Find References' is invoked when selecting CodeLens references. (AI dịch)",
+    "timestamp": "2025-11-26 14:49:32",
+    "unix_time": 1764143372.8911762
+  },
+  {
+    "key": "extensions/references-view.config.references.preferredLocation.peek",
+    "english": "[EN] Show references in peek editor.",
+    "translated": "[AI] Show references in peek editor. (AI dịch)",
+    "timestamp": "2025-11-26 14:49:33",
+    "unix_time": 1764143373.291415
+  },
+  {
+    "key": "extensions/references-view.config.references.preferredLocation.view",
+    "english": "[EN] Show references in separate view.",
+    "translated": "[AI] Show references in separate view. (AI dịch)",
+    "timestamp": "2025-11-26 14:49:33",
+    "unix_time": 1764143373.691961
+  },
+  {
+    "key": "extensions/references-view.container.title",
+    "english": "[EN] References",
+    "translated": "[AI] References (AI dịch)",
+    "timestamp": "2025-11-26 14:49:34",
+    "unix_time": 1764143374.092034
+  },
+  {
+    "key": "extensions/references-view.view.title",
+    "english": "[EN] Reference Search Results",
+    "translated": "[AI] Reference Search Results (AI dịch)",
+    "timestamp": "2025-11-26 14:49:34",
+    "unix_time": 1764143374.4920979
+  },
+  {
+    "key": "extensions/references-view.cmd.category.references",
+    "english": "[EN] References",
+    "translated": "[AI] References (AI dịch)",
+    "timestamp": "2025-11-26 14:49:34",
+    "unix_time": 1764143374.8921473
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.findReferences",
+    "english": "[EN] Find All References",
+    "translated": "[AI] Find All References (AI dịch)",
+    "timestamp": "2025-11-26 14:49:35",
+    "unix_time": 1764143375.2927363
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.findImplementations",
+    "english": "[EN] Find All Implementations",
+    "translated": "[AI] Find All Implementations (AI dịch)",
+    "timestamp": "2025-11-26 14:49:35",
+    "unix_time": 1764143375.693263
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.clearHistory",
+    "english": "[EN] Clear History",
+    "translated": "[AI] Clear History (AI dịch)",
+    "timestamp": "2025-11-26 14:49:36",
+    "unix_time": 1764143376.0933151
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.clear",
+    "english": "[EN] Clear",
+    "translated": "[AI] Clear (AI dịch)",
+    "timestamp": "2025-11-26 14:49:36",
+    "unix_time": 1764143376.4936306
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.refresh",
+    "english": "[EN] Refresh",
+    "translated": "[AI] Refresh (AI dịch)",
+    "timestamp": "2025-11-26 14:49:36",
+    "unix_time": 1764143376.8938935
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.pickFromHistory",
+    "english": "[EN] Show History",
+    "translated": "[AI] Show History (AI dịch)",
+    "timestamp": "2025-11-26 14:49:37",
+    "unix_time": 1764143377.2942772
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.removeReferenceItem",
+    "english": "[EN] Dismiss",
+    "translated": "[AI] Dismiss (AI dịch)",
+    "timestamp": "2025-11-26 14:49:37",
+    "unix_time": 1764143377.694555
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.copy",
+    "english": "[EN] Copy",
+    "translated": "[AI] Copy (AI dịch)",
+    "timestamp": "2025-11-26 14:49:38",
+    "unix_time": 1764143378.0947983
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.copyAll",
+    "english": "[EN] Copy All",
+    "translated": "[AI] Copy All (AI dịch)",
+    "timestamp": "2025-11-26 14:49:38",
+    "unix_time": 1764143378.4951203
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.copyPath",
+    "english": "[EN] Copy Path",
+    "translated": "[AI] Copy Path (AI dịch)",
+    "timestamp": "2025-11-26 14:49:38",
+    "unix_time": 1764143378.8954153
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.refind",
+    "english": "[EN] Rerun",
+    "translated": "[AI] Rerun (AI dịch)",
+    "timestamp": "2025-11-26 14:49:39",
+    "unix_time": 1764143379.2959628
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.showCallHierarchy",
+    "english": "[EN] Show Call Hierarchy",
+    "translated": "[AI] Show Call Hierarchy (AI dịch)",
+    "timestamp": "2025-11-26 14:49:39",
+    "unix_time": 1764143379.6962016
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.showOutgoingCalls",
+    "english": "[EN] Show Outgoing Calls",
+    "translated": "[AI] Show Outgoing Calls (AI dịch)",
+    "timestamp": "2025-11-26 14:49:40",
+    "unix_time": 1764143380.0962758
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.showIncomingCalls",
+    "english": "[EN] Show Incoming Calls",
+    "translated": "[AI] Show Incoming Calls (AI dịch)",
+    "timestamp": "2025-11-26 14:49:40",
+    "unix_time": 1764143380.4970157
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.removeCallItem",
+    "english": "[EN] Dismiss",
+    "translated": "[AI] Dismiss (AI dịch)",
+    "timestamp": "2025-11-26 14:49:40",
+    "unix_time": 1764143380.897524
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.next",
+    "english": "[EN] Go to Next Reference",
+    "translated": "[AI] Go to Next Reference (AI dịch)",
+    "timestamp": "2025-11-26 14:49:41",
+    "unix_time": 1764143381.2978218
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.prev",
+    "english": "[EN] Go to Previous Reference",
+    "translated": "[AI] Go to Previous Reference (AI dịch)",
+    "timestamp": "2025-11-26 14:49:41",
+    "unix_time": 1764143381.6981108
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.showTypeHierarchy",
+    "english": "[EN] Show Type Hierarchy",
+    "translated": "[AI] Show Type Hierarchy (AI dịch)",
+    "timestamp": "2025-11-26 14:49:42",
+    "unix_time": 1764143382.098372
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.showSupertypes",
+    "english": "[EN] Show Supertypes",
+    "translated": "[AI] Show Supertypes (AI dịch)",
+    "timestamp": "2025-11-26 14:49:42",
+    "unix_time": 1764143382.4986506
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.showSubtypes",
+    "english": "[EN] Show Subtypes",
+    "translated": "[AI] Show Subtypes (AI dịch)",
+    "timestamp": "2025-11-26 14:49:42",
+    "unix_time": 1764143382.8991506
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.removeTypeItem",
+    "english": "[EN] Dismiss",
+    "translated": "[AI] Dismiss (AI dịch)",
+    "timestamp": "2025-11-26 14:49:43",
+    "unix_time": 1764143383.2997434
+  },
+  {
+    "key": "extensions/terminal-suggest.view.name",
+    "english": "[EN] Terminal Suggest",
+    "translated": "[AI] Terminal Suggest (AI dịch)",
+    "timestamp": "2025-11-26 14:49:43",
+    "unix_time": 1764143383.699969
+  },
+  {
+    "key": "extensions/theme-defaults.minimalIconThemeLabel",
+    "english": "[EN] Minimal (Visual Studio Code)",
+    "translated": "[AI] Minimal (Visual Studio Code) (AI dịch)",
+    "timestamp": "2025-11-26 14:49:44",
+    "unix_time": 1764143384.1002185
+  },
+  {
+    "key": "extensions/tunnel-forwarding.command.showLog",
+    "english": "[EN] Show Log",
+    "translated": "[AI] Show Log (AI dịch)",
+    "timestamp": "2025-11-26 14:49:44",
+    "unix_time": 1764143384.500473
+  },
+  {
+    "key": "extensions/tunnel-forwarding.command.restart",
+    "english": "[EN] Restart Forwarding System",
+    "translated": "[AI] Restart Forwarding System (AI dịch)",
+    "timestamp": "2025-11-26 14:49:44",
+    "unix_time": 1764143384.9006345
+  }
+]

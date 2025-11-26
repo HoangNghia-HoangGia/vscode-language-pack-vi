@@ -1,0 +1,1168 @@
+{
+  "_instructions": "Dịch thủ công các entries này. Đây là phần QUAN TRỌNG nhất.",
+  "_count": 166,
+  "entries": [
+    {
+      "key": "extensions/bat.description",
+      "original": "[EN] Provides snippets, syntax highlighting, bracket matching and folding in Windows batch files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/clojure.description",
+      "original": "[EN] Provides syntax highlighting and bracket matching in Clojure files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/coffeescript.description",
+      "original": "[EN] Provides snippets, syntax highlighting, bracket matching and folding in CoffeeScript files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/configuration-editing.description",
+      "original": "[EN] Provides capabilities (advanced IntelliSense, auto-fixing) in configuration files like settings, launch, and extension recommendation files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/cpp.description",
+      "original": "[EN] Provides snippets, syntax highlighting, bracket matching and folding in C/C++ files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/csharp.description",
+      "original": "[EN] Provides snippets, syntax highlighting, bracket matching and folding in C# files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/css.description",
+      "original": "[EN] Provides syntax highlighting and bracket matching for CSS, LESS and SCSS files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/css-language-features.description",
+      "original": "[EN] Provides rich language support for CSS, LESS and SCSS files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/css-language-features.css.title",
+      "original": "[EN] CSS",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/css-language-features.css.validate.title",
+      "original": "[EN] Controls CSS validation and problem severities.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/css-language-features.less.title",
+      "original": "[EN] LESS",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/css-language-features.less.validate.title",
+      "original": "[EN] Controls LESS validation and problem severities.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/css-language-features.scss.title",
+      "original": "[EN] SCSS (Sass)",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/css-language-features.scss.validate.title",
+      "original": "[EN] Controls SCSS validation and problem severities.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/dart.description",
+      "original": "[EN] Provides syntax highlighting & bracket matching in Dart files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/debug-auto-launch.description",
+      "original": "[EN] Helper for auto-attach feature when node-debug extensions are not active.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/debug-server-ready.description",
+      "original": "[EN] Open URI in browser if server under debugging is ready.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/debug-server-ready.debug.server.ready.serverReadyAction.description",
+      "original": "[EN] Act upon a URI when a server program under debugging is ready (indicated by sending output of the form 'listening on port 3000' or 'Now listening on: https://localhost:5001' to the debug console.)",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/debug-server-ready.debug.server.ready.action.description",
+      "original": "[EN] What to do with the URI when the server is ready.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/debug-server-ready.debug.server.ready.action.openExternally.description",
+      "original": "[EN] Open URI externally with the default application.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/debug-server-ready.debug.server.ready.action.debugWithChrome.description",
+      "original": "[EN] Start debugging with the 'Debugger for Chrome'.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/debug-server-ready.debug.server.ready.action.startDebugging.description",
+      "original": "[EN] Run another launch configuration.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/debug-server-ready.debug.server.ready.pattern.description",
+      "original": "[EN] Server is ready if this pattern appears on the debug console. The first capture group must include a URI or a port number.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/debug-server-ready.debug.server.ready.debugConfig.description",
+      "original": "[EN] The debug configuration to run.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/debug-server-ready.debug.server.ready.uriFormat.description",
+      "original": "[EN] A format string used when constructing the URI from a port number. The first '%s' is substituted with the port number.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/debug-server-ready.debug.server.ready.webRoot.description",
+      "original": "[EN] Value passed to the debug configuration for the 'Debugger for Chrome'.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/debug-server-ready.debug.server.ready.killOnServerStop.description",
+      "original": "[EN] Stop the child session when the parent session stopped.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/debug-server-ready.debug.server.ready.debugConfigName.description",
+      "original": "[EN] Name of the launch configuration to run.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/diff.description",
+      "original": "[EN] Provides syntax highlighting & bracket matching in Diff files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/docker.description",
+      "original": "[EN] Provides syntax highlighting and bracket matching in Docker files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/dotenv.description",
+      "original": "[EN] Provides syntax highlighting and bracket matching in dotenv files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/emmet.description",
+      "original": "[EN] Emmet support for VS Code",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/extension-editing.description",
+      "original": "[EN] Provides linting capabilities for authoring extensions.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/fsharp.description",
+      "original": "[EN] Provides snippets, syntax highlighting, bracket matching and folding in F# files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/git.description",
+      "original": "[EN] Git SCM Integration",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/git-base.description",
+      "original": "[EN] Git static contributions and pickers.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/github.description",
+      "original": "[EN] GitHub features for VS Code",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/github-authentication.description",
+      "original": "[EN] GitHub Authentication Provider",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/github-authentication.config.github-enterprise.title",
+      "original": "[EN] GHE.com & GitHub Enterprise Server Authentication",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/github-authentication.config.github-enterprise.uri.description",
+      "original": "[EN] The URI for your GHE.com or GitHub Enterprise Server instance.\n\nExamples:\n* GHE.com: `https://octocat.ghe.com`\n* GitHub Enterprise Server: `https://github.octocat.com`\n\n> **Note:** This should _not_ be set to a GitHub.com URI. If your account exists on GitHub.com or is a GitHub Enterprise Managed User, you do not need any additional configuration and can simply log in to GitHub.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/github-authentication.config.github-authentication.useElectronFetch.description",
+      "original": "[EN] When true, uses Electron's built-in fetch function for HTTP requests. When false, uses the Node.js global fetch function. This setting only applies when running in the Electron environment. **Note:** A restart is required for this setting to take effect.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/github-authentication.config.github-authentication.preferDeviceCodeFlow.description",
+      "original": "[EN] When true, prioritize the device code flow for authentication instead of other available flows. This is useful for environments like WSL where the local server or URL handler flows may not work as expected.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/go.description",
+      "original": "[EN] Provides syntax highlighting and bracket matching in Go files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/groovy.description",
+      "original": "[EN] Provides snippets, syntax highlighting and bracket matching in Groovy files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/grunt.description",
+      "original": "[EN] Extension to add Grunt capabilities to VS Code.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/grunt.grunt.taskDefinition.type.description",
+      "original": "[EN] The Grunt task to customize.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/grunt.grunt.taskDefinition.args.description",
+      "original": "[EN] Command line arguments to pass to the grunt task",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/grunt.grunt.taskDefinition.file.description",
+      "original": "[EN] The Grunt file that provides the task. Can be omitted.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/gulp.description",
+      "original": "[EN] Extension to add Gulp capabilities to VSCode.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/gulp.gulp.taskDefinition.type.description",
+      "original": "[EN] The Gulp task to customize.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/gulp.gulp.taskDefinition.file.description",
+      "original": "[EN] The Gulp file that provides the task. Can be omitted.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/handlebars.description",
+      "original": "[EN] Provides syntax highlighting and bracket matching in Handlebars files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/hlsl.description",
+      "original": "[EN] Provides syntax highlighting and bracket matching in HLSL files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/html.description",
+      "original": "[EN] Provides syntax highlighting, bracket matching & snippets in HTML files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/html-language-features.description",
+      "original": "[EN] Provides rich language support for HTML and Handlebar files",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/ini.description",
+      "original": "[EN] Provides syntax highlighting and bracket matching in Ini files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/ipynb.description",
+      "original": "[EN] Provides basic support for opening and reading Jupyter's .ipynb notebook files",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/ipynb.openIpynbInNotebookEditor.title",
+      "original": "[EN] Open IPYNB File In Notebook Editor",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/jake.description",
+      "original": "[EN] Extension to add Jake capabilities to VS Code.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/jake.jake.taskDefinition.type.description",
+      "original": "[EN] The Jake task to customize.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/jake.jake.taskDefinition.file.description",
+      "original": "[EN] The Jake file that provides the task. Can be omitted.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/java.description",
+      "original": "[EN] Provides snippets, syntax highlighting, bracket matching and folding in Java files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/javascript.description",
+      "original": "[EN] Provides snippets, syntax highlighting, bracket matching and folding in JavaScript files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/json.description",
+      "original": "[EN] Provides syntax highlighting & bracket matching in JSON files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/json-language-features.description",
+      "original": "[EN] Provides rich language support for JSON files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/julia.description",
+      "original": "[EN] Provides syntax highlighting & bracket matching in Julia files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/latex.description",
+      "original": "[EN] Provides syntax highlighting and bracket matching for TeX, LaTeX and BibTeX.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/less.description",
+      "original": "[EN] Provides syntax highlighting, bracket matching and folding in Less files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/log.description",
+      "original": "[EN] Provides syntax highlighting for files with .log extension.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/lua.description",
+      "original": "[EN] Provides syntax highlighting and bracket matching in Lua files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/make.description",
+      "original": "[EN] Provides syntax highlighting and bracket matching in Make files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/markdown-basics.description",
+      "original": "[EN] Provides snippets and syntax highlighting for Markdown.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/markdown-language-features.description",
+      "original": "[EN] Provides rich language support for Markdown.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/markdown-language-features.markdown.copyImage.title",
+      "original": "[EN] Copy Image",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/markdown-language-features.markdown.openImage.title",
+      "original": "[EN] Open Image",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/markdown-language-features.markdown.preview.title",
+      "original": "[EN] Open Preview",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/markdown-language-features.markdown.previewSide.title",
+      "original": "[EN] Open Preview to the Side",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/markdown-language-features.markdown.showLockedPreviewToSide.title",
+      "original": "[EN] Open Locked Preview to the Side",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/markdown-language-features.markdown.showSource.title",
+      "original": "[EN] Show Source",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/markdown-language-features.markdown.showPreviewSecuritySelector.title",
+      "original": "[EN] Change Preview Security Settings",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/markdown-language-features.markdown.preview.refresh.title",
+      "original": "[EN] Refresh Preview",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/markdown-language-features.markdown.preview.toggleLock.title",
+      "original": "[EN] Toggle Preview Locking",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/markdown-language-features.configuration.markdown.preview.openMarkdownLinks.description",
+      "original": "[EN] Controls how links to other Markdown files in the Markdown preview should be opened.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/markdown-language-features.configuration.markdown.links.openLocation.description",
+      "original": "[EN] Controls where links in Markdown files should be opened.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/markdown-language-features.configuration.markdown.suggest.paths.enabled.description",
+      "original": "[EN] Enable path suggestions while writing links in Markdown files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/markdown-language-features.configuration.markdown.validate.enabled.description",
+      "original": "[EN] Enable all error reporting in Markdown files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/markdown-language-features.configuration.markdown.validate.referenceLinks.enabled.description",
+      "original": "[EN] Validate reference links in Markdown files, for example: `[link][ref]`. Requires enabling `#markdown.validate.enabled#`.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/markdown-language-features.configuration.markdown.validate.fragmentLinks.enabled.description",
+      "original": "[EN] Validate fragment links to headers in the current Markdown file, for example: `[link](#header)`. Requires enabling `#markdown.validate.enabled#`.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/markdown-language-features.configuration.markdown.validate.fileLinks.enabled.description",
+      "original": "[EN] Validate links to other files in Markdown files, for example `[link](/path/to/file.md)`. This checks that the target files exists. Requires enabling `#markdown.validate.enabled#`.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/markdown-language-features.configuration.markdown.validate.fileLinks.markdownFragmentLinks.description",
+      "original": "[EN] Validate the fragment part of links to headers in other files in Markdown files, for example: `[link](/path/to/file.md#header)`. Inherits the setting value from `#markdown.validate.fragmentLinks.enabled#` by default.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/markdown-language-features.configuration.markdown.validate.ignoredLinks.description",
+      "original": "[EN] Configure links that should not be validated. For example adding `/about` would not validate the link `[about](/about)`, while the glob `/assets/**/*.svg` would let you skip validation for any link to `.svg` files under the `assets` directory.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/markdown-language-features.configuration.markdown.validate.unusedLinkDefinitions.description",
+      "original": "[EN] Validate link definitions that are unused in the current file.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/markdown-language-features.configuration.markdown.validate.duplicateLinkDefinitions.description",
+      "original": "[EN] Validate duplicated definitions in the current file.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/markdown-math.description",
+      "original": "[EN] Adds math support to Markdown in notebooks.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/merge-conflict.description",
+      "original": "[EN] Highlighting and commands for inline merge conflicts.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/mermaid-chat-features.description",
+      "original": "[EN] Adds Mermaid diagram support to built-in chats.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/mermaid-chat-features.config.enabled.description",
+      "original": "[EN] Enable a tool for experimental Mermaid diagram rendering in chat responses.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/microsoft-authentication.description",
+      "original": "[EN] Microsoft authentication provider",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/microsoft-authentication.microsoft-authentication.implementation.description",
+      "original": "[EN] The authentication implementation to use for signing in with a Microsoft account.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/microsoft-authentication.microsoft-sovereign-cloud.customEnvironment.name.description",
+      "original": "[EN] The name of the custom Sovereign Cloud.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/microsoft-authentication.microsoft-sovereign-cloud.customEnvironment.portalUrl.description",
+      "original": "[EN] The portal URL for the custom Sovereign Cloud.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/microsoft-authentication.microsoft-sovereign-cloud.customEnvironment.managementEndpointUrl.description",
+      "original": "[EN] The management endpoint for the custom Sovereign Cloud.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/microsoft-authentication.microsoft-sovereign-cloud.customEnvironment.resourceManagerEndpointUrl.description",
+      "original": "[EN] The resource manager endpoint for the custom Sovereign Cloud.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/microsoft-authentication.microsoft-sovereign-cloud.customEnvironment.activeDirectoryEndpointUrl.description",
+      "original": "[EN] The Active Directory endpoint for the custom Sovereign Cloud.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/microsoft-authentication.microsoft-sovereign-cloud.customEnvironment.activeDirectoryResourceId.description",
+      "original": "[EN] The Active Directory resource ID for the custom Sovereign Cloud.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/notebook-renderers.description",
+      "original": "[EN] Provides basic output renderers for notebooks",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/npm.description",
+      "original": "[EN] Extension to add task support for npm scripts.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/objective-c.description",
+      "original": "[EN] Provides syntax highlighting and bracket matching in Objective-C files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/perl.description",
+      "original": "[EN] Provides syntax highlighting and bracket matching in Perl files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/php.description",
+      "original": "[EN] Provides syntax highlighting and bracket matching for PHP files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/php-language-features.configuration.title",
+      "original": "[EN] PHP",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/php-language-features.description",
+      "original": "[EN] Provides rich language support for PHP files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/powershell.description",
+      "original": "[EN] Provides snippets, syntax highlighting, bracket matching and folding in Powershell files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/prompt-basics.description",
+      "original": "[EN] Syntax highlighting for Prompt and Instructions documents.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/pug.description",
+      "original": "[EN] Provides syntax highlighting and bracket matching in Pug files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/python.description",
+      "original": "[EN] Provides syntax highlighting, bracket matching and folding in Python files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/r.description",
+      "original": "[EN] Provides syntax highlighting and bracket matching in R files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/razor.description",
+      "original": "[EN] Provides syntax highlighting, bracket matching and folding in Razor files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/restructuredtext.description",
+      "original": "[EN] Provides syntax highlighting in reStructuredText files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/ruby.description",
+      "original": "[EN] Provides syntax highlighting and bracket matching in Ruby files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/rust.description",
+      "original": "[EN] Provides syntax highlighting and bracket matching in Rust files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/scss.description",
+      "original": "[EN] Provides syntax highlighting, bracket matching and folding in SCSS files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/search-result.description",
+      "original": "[EN] Provides syntax highlighting and language features for tabbed search results.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/shaderlab.description",
+      "original": "[EN] Provides syntax highlighting and bracket matching in Shaderlab files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/shellscript.description",
+      "original": "[EN] Provides syntax highlighting and bracket matching in Shell Script files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/simple-browser.description",
+      "original": "[EN] A very basic built-in webview for displaying web content.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/simple-browser.configuration.focusLockIndicator.enabled.description",
+      "original": "[EN] Enable/disable the floating indicator that shows when focused in the simple browser.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/sql.description",
+      "original": "[EN] Provides syntax highlighting and bracket matching in SQL files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/swift.description",
+      "original": "[EN] Provides snippets, syntax highlighting and bracket matching in Swift files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/terminal-suggest.description",
+      "original": "[EN] Extension to add terminal completions for zsh, bash, and fish terminals.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/theme-abyss.description",
+      "original": "[EN] Abyss theme for Visual Studio Code",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/theme-defaults.description",
+      "original": "[EN] The default Visual Studio light and dark themes",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/theme-kimbie-dark.description",
+      "original": "[EN] Kimbie dark theme for Visual Studio Code",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/theme-monokai.description",
+      "original": "[EN] Monokai theme for Visual Studio Code",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/theme-monokai-dimmed.description",
+      "original": "[EN] Monokai dimmed theme for Visual Studio Code",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/theme-quietlight.description",
+      "original": "[EN] Quiet light theme for Visual Studio Code",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/theme-red.description",
+      "original": "[EN] Red theme for Visual Studio Code",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/theme-seti.description",
+      "original": "[EN] A file icon theme made out of the Seti UI file icons",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/theme-solarized-dark.description",
+      "original": "[EN] Solarized dark theme for Visual Studio Code",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/theme-solarized-light.description",
+      "original": "[EN] Solarized light theme for Visual Studio Code",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/theme-tomorrow-night-blue.description",
+      "original": "[EN] Tomorrow night blue theme for Visual Studio Code",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/tunnel-forwarding.description",
+      "original": "[EN] Allows forwarding local ports to be accessible over the internet.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/tunnel-forwarding.category",
+      "original": "[EN] Port Forwarding",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/typescript-basics.description",
+      "original": "[EN] Provides snippets, syntax highlighting, bracket matching and folding in TypeScript files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/typescript-language-features.description",
+      "original": "[EN] Provides rich language support for JavaScript and TypeScript.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/typescript-language-features.reloadProjects.title",
+      "original": "[EN] Reload Project",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/typescript-language-features.javascript.goToProjectConfig.title",
+      "original": "[EN] Go to Project Configuration (jsconfig / tsconfig)",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/typescript-language-features.typescript.goToProjectConfig.title",
+      "original": "[EN] Go to Project Configuration (tsconfig)",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/typescript-language-features.typescript.openTsServerLog.title",
+      "original": "[EN] Open TS Server log",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/typescript-language-features.typescript.selectTypeScriptVersion.title",
+      "original": "[EN] Select TypeScript Version...",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/typescript-language-features.taskDefinition.tsconfig.description",
+      "original": "[EN] The tsconfig file that defines the TS build.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/typescript-language-features.walkthroughs.nodejsWelcome.title",
+      "original": "[EN] Get started with JavaScript and Node.js",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/typescript-language-features.walkthroughs.nodejsWelcome.description",
+      "original": "[EN] Make the most of Visual Studio Code's first-class JavaScript experience.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/typescript-language-features.walkthroughs.nodejsWelcome.downloadNode.forMacOrWindows.title",
+      "original": "[EN] Install Node.js",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/typescript-language-features.walkthroughs.nodejsWelcome.downloadNode.forMacOrWindows.description",
+      "original": "[EN] Node.js is an easy way to run JavaScript code. You can use it to quickly build command-line apps and servers. It also comes with npm, a package manager which makes reusing and sharing JavaScript code easy.\n[Install Node.js](https://nodejs.org/en/download/)",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/typescript-language-features.walkthroughs.nodejsWelcome.downloadNode.forLinux.title",
+      "original": "[EN] Install Node.js",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/typescript-language-features.walkthroughs.nodejsWelcome.downloadNode.forLinux.description",
+      "original": "[EN] Node.js is an easy way to run JavaScript code. You can use it to quickly build command-line apps and servers. It also comes with npm, a package manager which makes reusing and sharing JavaScript code easy.\n[Install Node.js](https://nodejs.org/en/download/package-manager/)",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/typescript-language-features.walkthroughs.nodejsWelcome.makeJsFile.title",
+      "original": "[EN] Create a JavaScript File",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/typescript-language-features.walkthroughs.nodejsWelcome.makeJsFile.description",
+      "original": "[EN] Let's write our first JavaScript file. We'll have to create a new file and save it with the ``.js`` extension at the end of the file name.\n[Create a JavaScript File](command:javascript-walkthrough.commands.createJsFile)",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/typescript-language-features.walkthroughs.nodejsWelcome.debugJsFile.title",
+      "original": "[EN] Run and Debug your JavaScript",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/typescript-language-features.walkthroughs.nodejsWelcome.debugJsFile.description",
+      "original": "[EN] Once you've installed Node.js, you can run JavaScript programs at a terminal by entering ``node your-file-name.js``\nAnother easy way to run Node.js programs is by using VS Code's debugger which lets you run your code, pause at different points, and help you understand what's going on step-by-step.\n[Start Debugging](command:javascript-walkthrough.commands.debugJsFile)",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/typescript-language-features.walkthroughs.nodejsWelcome.learnMoreAboutJs.title",
+      "original": "[EN] Explore More",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/typescript-language-features.walkthroughs.nodejsWelcome.learnMoreAboutJs.description",
+      "original": "[EN] Want to get more comfortable with JavaScript, Node.js, and VS Code? Be sure to check out our docs!\nWe've got lots of resources for learning [JavaScript](https://code.visualstudio.com/docs/nodejs/working-with-javascript) and [Node.js](https://code.visualstudio.com/docs/nodejs/nodejs-tutorial).\n\n[Learn More](https://code.visualstudio.com/docs/nodejs/nodejs-tutorial)",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/vb.description",
+      "original": "[EN] Provides snippets, syntax highlighting, bracket matching and folding in Visual Basic files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/xml.description",
+      "original": "[EN] Provides syntax highlighting and bracket matching in XML files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/yaml.description",
+      "original": "[EN] Provides syntax highlighting and bracket matching in YAML files.",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    }
+  ]
+}

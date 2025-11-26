@@ -2,6 +2,12 @@
 .vscode/**
 *.vsix
 
+# CRITICAL: Exclude vscode-source (8000+ files)
+vscode-source/**
+
+# Python scripts
+*.py
+
 # Node modules
 node_modules/**
 
@@ -28,3 +34,19 @@ build/
 # Temporary files
 *.tmp
 *.temp
+
+# Development files
+*.bat
+*.sh
+installer/**
+vscode-vietnamese-pack/**
+translations/main.i18n.base.json
+translations/main.i18n.json.english
+translations/core.json
+translations/ui.json
+translations/misc.json
+translations/core_translated.json
+translations/ui_translated.json
+translations/misc_translated.json
+*.md
+!README.md

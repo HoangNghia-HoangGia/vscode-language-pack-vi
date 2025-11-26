@@ -1,0 +1,137 @@
+{
+  "_comment": "Danh sách thuật ngữ DEV KHÔNG ĐƯỢC DỊCH - Giữ nguyên tiếng Anh",
+  "_usage": "Dùng để bảo vệ thuật ngữ khi dịch main.i18n.json",
+  
+  "git_terms": [
+    "commit", "push", "pull", "fetch", "merge", "rebase", "branch", 
+    "checkout", "clone", "fork", "stash", "cherry-pick", "squash",
+    "repository", "repo", "remote", "origin", "upstream", "HEAD",
+    "diff", "patch", "conflict", "stage", "unstage", "amend"
+  ],
+  
+  "debug_terms": [
+    "debug", "debugger", "breakpoint", "watchpoint", "step over",
+    "step into", "step out", "continue", "stack trace", "call stack",
+    "watch", "evaluate", "inspect", "runtime", "exception", "error"
+  ],
+  
+  "vscode_core_terms": [
+    "workspace", "folder", "editor", "terminal", "panel", "sidebar",
+    "command palette", "quick open", "intellisense", "snippet",
+    "extension", "theme", "keybinding", "shortcut", "hotkey",
+    "settings", "preferences", "config", "launch", "task"
+  ],
+  
+  "programming_terms": [
+    "refactor", "rename", "format", "lint", "build", "compile",
+    "deploy", "test", "unit test", "integration test", "coverage",
+    "API", "JSON", "XML", "HTML", "CSS", "Markdown", "YAML",
+    "regex", "expression", "syntax", "parse", "token", "scope"
+  ],
+  
+  "file_system_terms": [
+    "file", "folder", "directory", "path", "symlink", "glob pattern",
+    "exclude", "include", "ignore", "gitignore", "node_modules",
+    "src", "dist", "build", "output", "bin", "lib"
+  ],
+  
+  "ui_action_terms": [
+    "hover", "tooltip", "context menu", "dropdown", "checkbox",
+    "radio button", "toggle", "slider", "input", "output",
+    "zoom", "scroll", "drag", "drop", "resize", "collapse", "expand"
+  ],
+  
+  "special_cases": {
+    "Git": "Git (giữ nguyên viết hoa)",
+    "GitHub": "GitHub",
+    "GitLab": "GitLab",
+    "VS Code": "VS Code",
+    "TypeScript": "TypeScript",
+    "JavaScript": "JavaScript",
+    "Node.js": "Node.js",
+    "npm": "npm",
+    "Python": "Python",
+    "Docker": "Docker",
+    "Linux": "Linux",
+    "Windows": "Windows",
+    "macOS": "macOS",
+    "Ctrl": "Ctrl (giữ nguyên)",
+    "Shift": "Shift",
+    "Alt": "Alt",
+    "Enter": "Enter",
+    "Esc": "Esc",
+    "Tab": "Tab"
+  },
+  
+  "compound_terms_do_not_split": [
+    "pull request",
+    "merge conflict",
+    "code review",
+    "source control",
+    "version control",
+    "working directory",
+    "commit message",
+    "branch name",
+    "file explorer",
+    "search editor",
+    "peek definition",
+    "go to definition",
+    "find all references",
+    "rename symbol",
+    "format document",
+    "toggle breakpoint",
+    "run without debugging",
+    "start debugging"
+  ],
+  
+  "acronyms_keep_uppercase": [
+    "API", "URL", "URI", "HTTP", "HTTPS", "SSH", "FTP",
+    "SQL", "NoSQL", "REST", "CRUD", "CLI", "GUI",
+    "IDE", "SDK", "VM", "OS", "UI", "UX", "I/O",
+    "CPU", "RAM", "GPU", "SSD", "HDD", "USB",
+    "XML", "JSON", "YAML", "CSV", "PDF", "ZIP"
+  ],
+  
+  "contextual_rules": {
+    "_note": "Một số từ có thể dịch được TÙY THEO NGỮ CẢNH",
+    "file": {
+      "keep_if": "technical context (file system, file path, file type)",
+      "translate_if": "general UI context → 'tệp' hoặc 'tập tin'"
+    },
+    "folder": {
+      "keep_if": "UI element name, breadcrumb",
+      "translate_if": "descriptive text → 'thư mục'"
+    },
+    "error": {
+      "keep_if": "error message type, log level",
+      "translate_if": "user-facing message → 'lỗi'"
+    },
+    "warning": {
+      "keep_if": "log level, message type",
+      "translate_if": "user-facing → 'cảnh báo'"
+    }
+  },
+  
+  "translation_patterns": {
+    "_note": "Mẫu dịch an toàn cho các cấu trúc phổ biến",
+    "Show {term}": "Hiển thị {term}",
+    "Open {term}": "Mở {term}",
+    "Close {term}": "Đóng {term}",
+    "Toggle {term}": "Bật/tắt {term}",
+    "Enable {term}": "Bật {term}",
+    "Disable {term}": "Tắt {term}",
+    "{term} Settings": "Cài đặt {term}",
+    "{term} Configuration": "Cấu hình {term}",
+    "Run {term}": "Chạy {term}",
+    "Debug {term}": "Debug {term}"
+  },
+  
+  "length_limits": {
+    "_note": "Giới hạn độ dài để không phá UI",
+    "menu_item": "max 30 chars (tiếng Việt thường dài hơn 20-30%)",
+    "button": "max 15 chars",
+    "tooltip": "max 80 chars (single line)",
+    "status_bar": "max 40 chars",
+    "notification": "max 100 chars (first line)"
+  }
+}

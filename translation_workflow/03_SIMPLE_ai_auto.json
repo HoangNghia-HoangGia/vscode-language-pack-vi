@@ -1,0 +1,636 @@
+{
+  "_instructions": "AI dịch tự động với validation. Vẫn nên spot-check.",
+  "_count": 90,
+  "entries": [
+    {
+      "key": "extensions/bat.displayName",
+      "original": "[EN] Windows Bat Language Basics",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/clojure.displayName",
+      "original": "[EN] Clojure Language Basics",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/coffeescript.displayName",
+      "original": "[EN] CoffeeScript Language Basics",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/configuration-editing.displayName",
+      "original": "[EN] Configuration Editing",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/cpp.displayName",
+      "original": "[EN] C/C++ Language Basics",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/csharp.displayName",
+      "original": "[EN] C# Language Basics",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/css.displayName",
+      "original": "[EN] CSS Language Basics",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/css-language-features.displayName",
+      "original": "[EN] CSS Language Features",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/dart.displayName",
+      "original": "[EN] Dart Language Basics",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/debug-auto-launch.displayName",
+      "original": "[EN] Node Debug Auto-attach",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/debug-server-ready.displayName",
+      "original": "[EN] Server Ready Action",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/diff.displayName",
+      "original": "[EN] Diff Language Basics",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/docker.displayName",
+      "original": "[EN] Docker Language Basics",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/dotenv.displayName",
+      "original": "[EN] Dotenv Language Basics",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/extension-editing.displayName",
+      "original": "[EN] Extension Authoring",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/fsharp.displayName",
+      "original": "[EN] F# Language Basics",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/git.displayName",
+      "original": "[EN] Git",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/git-base.displayName",
+      "original": "[EN] Git Base",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/github.displayName",
+      "original": "[EN] GitHub",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/github-authentication.displayName",
+      "original": "[EN] GitHub Authentication",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/go.displayName",
+      "original": "[EN] Go Language Basics",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/groovy.displayName",
+      "original": "[EN] Groovy Language Basics",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/grunt.displayName",
+      "original": "[EN] Grunt support for VS Code",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/gulp.displayName",
+      "original": "[EN] Gulp support for VSCode",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/handlebars.displayName",
+      "original": "[EN] Handlebars Language Basics",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/hlsl.displayName",
+      "original": "[EN] HLSL Language Basics",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/html.displayName",
+      "original": "[EN] HTML Language Basics",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/html-language-features.displayName",
+      "original": "[EN] HTML Language Features",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/ini.displayName",
+      "original": "[EN] Ini Language Basics",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/ipynb.displayName",
+      "original": "[EN] .ipynb Support",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/jake.displayName",
+      "original": "[EN] Jake support for VS Code",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/java.displayName",
+      "original": "[EN] Java Language Basics",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/javascript.displayName",
+      "original": "[EN] JavaScript Language Basics",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/json.displayName",
+      "original": "[EN] JSON Language Basics",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/json-language-features.displayName",
+      "original": "[EN] JSON Language Features",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/julia.displayName",
+      "original": "[EN] Julia Language Basics",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/latex.displayName",
+      "original": "[EN] LaTeX Language Basics",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/less.displayName",
+      "original": "[EN] Less Language Basics",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/log.displayName",
+      "original": "[EN] Log",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/lua.displayName",
+      "original": "[EN] Lua Language Basics",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/make.displayName",
+      "original": "[EN] Make Language Basics",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/markdown-basics.displayName",
+      "original": "[EN] Markdown Language Basics",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/markdown-language-features.displayName",
+      "original": "[EN] Markdown Language Features",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/markdown-math.displayName",
+      "original": "[EN] Markdown Math",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/media-preview.customEditor.audioPreview.displayName",
+      "original": "[EN] Audio Preview",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/media-preview.customEditor.imagePreview.displayName",
+      "original": "[EN] Image Preview",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/media-preview.customEditor.videoPreview.displayName",
+      "original": "[EN] Video Preview",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/merge-conflict.displayName",
+      "original": "[EN] Merge Conflict",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/mermaid-chat-features.displayName",
+      "original": "[EN] Mermaid Chat Features",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/microsoft-authentication.displayName",
+      "original": "[EN] Microsoft Account",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/notebook-renderers.displayName",
+      "original": "[EN] Builtin Notebook Output Renderers",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/npm.displayName",
+      "original": "[EN] NPM support for VS Code",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/objective-c.displayName",
+      "original": "[EN] Objective-C Language Basics",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/perl.displayName",
+      "original": "[EN] Perl Language Basics",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/php.displayName",
+      "original": "[EN] PHP Language Basics",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/php-language-features.displayName",
+      "original": "[EN] PHP Language Features",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/powershell.displayName",
+      "original": "[EN] Powershell Language Basics",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/prompt-basics.displayName",
+      "original": "[EN] Prompt Language Basics",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/pug.displayName",
+      "original": "[EN] Pug Language Basics",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/python.displayName",
+      "original": "[EN] Python Language Basics",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/r.displayName",
+      "original": "[EN] R Language Basics",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/razor.displayName",
+      "original": "[EN] Razor Language Basics",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/restructuredtext.displayName",
+      "original": "[EN] reStructuredText Language Basics",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/ruby.displayName",
+      "original": "[EN] Ruby Language Basics",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/rust.displayName",
+      "original": "[EN] Rust Language Basics",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/scss.displayName",
+      "original": "[EN] SCSS Language Basics",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/search-result.displayName",
+      "original": "[EN] Search Result",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/shaderlab.displayName",
+      "original": "[EN] Shaderlab Language Basics",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/shellscript.displayName",
+      "original": "[EN] Shell Script Language Basics",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/simple-browser.displayName",
+      "original": "[EN] Simple Browser",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/sql.displayName",
+      "original": "[EN] SQL Language Basics",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/swift.displayName",
+      "original": "[EN] Swift Language Basics",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/terminal-suggest.displayName",
+      "original": "[EN] Terminal Suggest for VS Code",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/theme-abyss.displayName",
+      "original": "[EN] Abyss Theme",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/theme-defaults.displayName",
+      "original": "[EN] Default Themes",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/theme-kimbie-dark.displayName",
+      "original": "[EN] Kimbie Dark Theme",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/theme-monokai.displayName",
+      "original": "[EN] Monokai Theme",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/theme-monokai-dimmed.displayName",
+      "original": "[EN] Monokai Dimmed Theme",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/theme-quietlight.displayName",
+      "original": "[EN] Quiet Light Theme",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/theme-red.displayName",
+      "original": "[EN] Red Theme",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/theme-seti.displayName",
+      "original": "[EN] Seti File Icon Theme",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/theme-solarized-dark.displayName",
+      "original": "[EN] Solarized Dark Theme",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/theme-solarized-light.displayName",
+      "original": "[EN] Solarized Light Theme",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/theme-tomorrow-night-blue.displayName",
+      "original": "[EN] Tomorrow Night Blue Theme",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/tunnel-forwarding.displayName",
+      "original": "[EN] Local Tunnel Port Forwarding",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/typescript-basics.displayName",
+      "original": "[EN] TypeScript Language Basics",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/typescript-language-features.displayName",
+      "original": "[EN] TypeScript and JavaScript Language Features",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/vb.displayName",
+      "original": "[EN] Visual Basic Language Basics",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/xml.displayName",
+      "original": "[EN] XML Language Basics",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    },
+    {
+      "key": "extensions/yaml.displayName",
+      "original": "[EN] YAML Language Basics",
+      "translated": "",
+      "needs_review": false,
+      "validation_issues": []
+    }
+  ]
+}

@@ -1,0 +1,464 @@
+[
+  {
+    "key": "extensions/media-preview.displayName",
+    "current": "[AI] Media Preview (AI dịch)",
+    "english": "Media Preview",
+    "suggested": "[AI] Media Preview",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/media-preview.description",
+    "current": "[AI] Provides VS Code's built-in previews for images, audio, and video (AI dịch)",
+    "english": "Provides VS Code's built-in previews for images, audio, and video",
+    "suggested": "[AI] Provides VS Code's built-in previews for images, audio, and video",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/media-preview.videoPreviewerAutoPlay",
+    "current": "[AI] Start playing videos on mute automatically. (AI dịch)",
+    "english": "Start playing videos on mute automatically.",
+    "suggested": "[AI] Start playing videos on mute automatically.",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/media-preview.videoPreviewerLoop",
+    "current": "[AI] Loop videos over again automatically. (AI dịch)",
+    "english": "Loop videos over again automatically.",
+    "suggested": "[AI] Loop videos over again automatically.",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/media-preview.command.zoomIn",
+    "current": "[AI] Zoom in (AI dịch)",
+    "english": "Zoom in",
+    "suggested": "[AI] Zoom in",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/media-preview.command.zoomOut",
+    "current": "[AI] Zoom out (AI dịch)",
+    "english": "Zoom out",
+    "suggested": "[AI] Zoom out",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/media-preview.command.copyImage",
+    "current": "[AI] Copy (AI dịch)",
+    "english": "Copy",
+    "suggested": "[AI] Copy",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/media-preview.command.reopenAsPreview",
+    "current": "[AI] Reopen as image preview (AI dịch)",
+    "english": "Reopen as image preview",
+    "suggested": "[AI] Reopen as image preview",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/media-preview.command.reopenAsText",
+    "current": "[AI] Reopen as source text (AI dịch)",
+    "english": "Reopen as source text",
+    "suggested": "[AI] Reopen as source text",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/merge-conflict.command.category",
+    "current": "[AI] Merge Conflict (AI dịch)",
+    "english": "Merge Conflict",
+    "suggested": "[AI] Merge Conflict",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/merge-conflict.command.accept.all-current",
+    "current": "[AI] Accept All Current (AI dịch)",
+    "english": "Accept All Current",
+    "suggested": "[AI] Accept All Current",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/merge-conflict.command.accept.all-incoming",
+    "current": "[AI] Accept All Incoming (AI dịch)",
+    "english": "Accept All Incoming",
+    "suggested": "[AI] Accept All Incoming",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/merge-conflict.command.accept.all-both",
+    "current": "[AI] Accept All Both (AI dịch)",
+    "english": "Accept All Both",
+    "suggested": "[AI] Accept All Both",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/merge-conflict.command.accept.current",
+    "current": "[AI] Accept Current (AI dịch)",
+    "english": "Accept Current",
+    "suggested": "[AI] Accept Current",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/merge-conflict.command.accept.incoming",
+    "current": "[AI] Accept Incoming (AI dịch)",
+    "english": "Accept Incoming",
+    "suggested": "[AI] Accept Incoming",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/merge-conflict.command.accept.selection",
+    "current": "[AI] Accept Selection (AI dịch)",
+    "english": "Accept Selection",
+    "suggested": "[AI] Accept Selection",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/merge-conflict.command.accept.both",
+    "current": "[AI] Accept Both (AI dịch)",
+    "english": "Accept Both",
+    "suggested": "[AI] Accept Both",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/merge-conflict.command.next",
+    "current": "[AI] Next Conflict (AI dịch)",
+    "english": "Next Conflict",
+    "suggested": "[AI] Next Conflict",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/merge-conflict.command.previous",
+    "current": "[AI] Previous Conflict (AI dịch)",
+    "english": "Previous Conflict",
+    "suggested": "[AI] Previous Conflict",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/merge-conflict.command.compare",
+    "current": "[AI] Compare Current Conflict (AI dịch)",
+    "english": "Compare Current Conflict",
+    "suggested": "[AI] Compare Current Conflict",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/merge-conflict.config.title",
+    "current": "[AI] Merge Conflict (AI dịch)",
+    "english": "Merge Conflict",
+    "suggested": "[AI] Merge Conflict",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/merge-conflict.config.diffViewPosition",
+    "current": "[AI] Controls where the diff view should be opened when comparing changes in merge conflicts. (AI dịch)",
+    "english": "Controls where the diff view should be opened when comparing changes in merge conflicts.",
+    "suggested": "[AI] Controls where the diff view should be opened when comparing changes in merge conflicts.",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/merge-conflict.config.diffViewPosition.current",
+    "current": "[AI] Open the diff view in the current editor group. (AI dịch)",
+    "english": "Open the diff view in the current editor group.",
+    "suggested": "[AI] Open the diff view in the current editor group.",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/merge-conflict.config.diffViewPosition.beside",
+    "current": "[AI] Open the diff view next to the current editor group. (AI dịch)",
+    "english": "Open the diff view next to the current editor group.",
+    "suggested": "[AI] Open the diff view next to the current editor group.",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/merge-conflict.config.diffViewPosition.below",
+    "current": "[AI] Open the diff view below the current editor group. (AI dịch)",
+    "english": "Open the diff view below the current editor group.",
+    "suggested": "[AI] Open the diff view below the current editor group.",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/npm.view.name",
+    "current": "[AI] NPM Scripts (AI dịch)",
+    "english": "NPM Scripts",
+    "suggested": "[AI] NPM Scripts",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/npm.command.refresh",
+    "current": "[AI] Refresh (AI dịch)",
+    "english": "Refresh",
+    "suggested": "[AI] Refresh",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/npm.command.run",
+    "current": "[AI] Run (AI dịch)",
+    "english": "Run",
+    "suggested": "[AI] Run",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/npm.command.openScript",
+    "current": "[AI] Open (AI dịch)",
+    "english": "Open",
+    "suggested": "[AI] Open",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/npm.command.runInstall",
+    "current": "[AI] Run Install (AI dịch)",
+    "english": "Run Install",
+    "suggested": "[AI] Run Install",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/npm.command.runSelectedScript",
+    "current": "[AI] Run Script (AI dịch)",
+    "english": "Run Script",
+    "suggested": "[AI] Run Script",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/npm.command.runScriptFromFolder",
+    "current": "[AI] Run NPM Script in Folder... (AI dịch)",
+    "english": "Run NPM Script in Folder...",
+    "suggested": "[AI] Run NPM Script in Folder...",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/npm.command.packageManager",
+    "current": "[AI] Get Configured Package Manager (AI dịch)",
+    "english": "Get Configured Package Manager",
+    "suggested": "[AI] Get Configured Package Manager",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/references-view.displayName",
+    "current": "[AI] Reference Search View (AI dịch)",
+    "english": "Reference Search View",
+    "suggested": "[AI] Reference Search View",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/references-view.description",
+    "current": "[AI] Reference Search results as separate, stable view in the sidebar (AI dịch)",
+    "english": "Reference Search results as separate, stable view in the sidebar",
+    "suggested": "[AI] Reference Search results as separate, stable view in the sidebar",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/references-view.config.references.preferredLocation",
+    "current": "[AI] Controls whether 'Peek References' or 'Find References' is invoked when selecting CodeLens references. (AI dịch)",
+    "english": "Controls whether 'Peek References' or 'Find References' is invoked when selecting CodeLens references.",
+    "suggested": "[AI] Controls whether 'Peek References' or 'Find References' is invoked when selecting CodeLens references.",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/references-view.config.references.preferredLocation.peek",
+    "current": "[AI] Show references in peek editor. (AI dịch)",
+    "english": "Show references in peek editor.",
+    "suggested": "[AI] Show references in peek editor.",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/references-view.config.references.preferredLocation.view",
+    "current": "[AI] Show references in separate view. (AI dịch)",
+    "english": "Show references in separate view.",
+    "suggested": "[AI] Show references in separate view.",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/references-view.container.title",
+    "current": "[AI] References (AI dịch)",
+    "english": "References",
+    "suggested": "[AI] References",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/references-view.view.title",
+    "current": "[AI] Reference Search Results (AI dịch)",
+    "english": "Reference Search Results",
+    "suggested": "[AI] Reference Search Results",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/references-view.cmd.category.references",
+    "current": "[AI] References (AI dịch)",
+    "english": "References",
+    "suggested": "[AI] References",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.findReferences",
+    "current": "[AI] Find All References (AI dịch)",
+    "english": "Find All References",
+    "suggested": "[AI] Find All References",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.findImplementations",
+    "current": "[AI] Find All Implementations (AI dịch)",
+    "english": "Find All Implementations",
+    "suggested": "[AI] Find All Implementations",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.clearHistory",
+    "current": "[AI] Clear History (AI dịch)",
+    "english": "Clear History",
+    "suggested": "[AI] Clear History",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.clear",
+    "current": "[AI] Clear (AI dịch)",
+    "english": "Clear",
+    "suggested": "[AI] Clear",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.refresh",
+    "current": "[AI] Refresh (AI dịch)",
+    "english": "Refresh",
+    "suggested": "[AI] Refresh",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.pickFromHistory",
+    "current": "[AI] Show History (AI dịch)",
+    "english": "Show History",
+    "suggested": "[AI] Show History",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.removeReferenceItem",
+    "current": "[AI] Dismiss (AI dịch)",
+    "english": "Dismiss",
+    "suggested": "[AI] Dismiss",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.copy",
+    "current": "[AI] Copy (AI dịch)",
+    "english": "Copy",
+    "suggested": "[AI] Copy",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.copyAll",
+    "current": "[AI] Copy All (AI dịch)",
+    "english": "Copy All",
+    "suggested": "[AI] Copy All",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.copyPath",
+    "current": "[AI] Copy Path (AI dịch)",
+    "english": "Copy Path",
+    "suggested": "[AI] Copy Path",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.refind",
+    "current": "[AI] Rerun (AI dịch)",
+    "english": "Rerun",
+    "suggested": "[AI] Rerun",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.showCallHierarchy",
+    "current": "[AI] Show Call Hierarchy (AI dịch)",
+    "english": "Show Call Hierarchy",
+    "suggested": "[AI] Show Call Hierarchy",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.showOutgoingCalls",
+    "current": "[AI] Show Outgoing Calls (AI dịch)",
+    "english": "Show Outgoing Calls",
+    "suggested": "[AI] Show Outgoing Calls",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.showIncomingCalls",
+    "current": "[AI] Show Incoming Calls (AI dịch)",
+    "english": "Show Incoming Calls",
+    "suggested": "[AI] Show Incoming Calls",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.removeCallItem",
+    "current": "[AI] Dismiss (AI dịch)",
+    "english": "Dismiss",
+    "suggested": "[AI] Dismiss",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.next",
+    "current": "[AI] Go to Next Reference (AI dịch)",
+    "english": "Go to Next Reference",
+    "suggested": "[AI] Go to Next Reference",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.prev",
+    "current": "[AI] Go to Previous Reference (AI dịch)",
+    "english": "Go to Previous Reference",
+    "suggested": "[AI] Go to Previous Reference",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.showTypeHierarchy",
+    "current": "[AI] Show Type Hierarchy (AI dịch)",
+    "english": "Show Type Hierarchy",
+    "suggested": "[AI] Show Type Hierarchy",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.showSupertypes",
+    "current": "[AI] Show Supertypes (AI dịch)",
+    "english": "Show Supertypes",
+    "suggested": "[AI] Show Supertypes",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.showSubtypes",
+    "current": "[AI] Show Subtypes (AI dịch)",
+    "english": "Show Subtypes",
+    "suggested": "[AI] Show Subtypes",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/references-view.cmd.references-view.removeTypeItem",
+    "current": "[AI] Dismiss (AI dịch)",
+    "english": "Dismiss",
+    "suggested": "[AI] Dismiss",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/terminal-suggest.view.name",
+    "current": "[AI] Terminal Suggest (AI dịch)",
+    "english": "Terminal Suggest",
+    "suggested": "[AI] Terminal Suggest",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/theme-defaults.minimalIconThemeLabel",
+    "current": "[AI] Minimal (Visual Studio Code) (AI dịch)",
+    "english": "Minimal (Visual Studio Code)",
+    "suggested": "[AI] Minimal (Visual Studio Code)",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/tunnel-forwarding.command.showLog",
+    "current": "[AI] Show Log (AI dịch)",
+    "english": "Show Log",
+    "suggested": "[AI] Show Log",
+    "status": "pending"
+  },
+  {
+    "key": "extensions/tunnel-forwarding.command.restart",
+    "current": "[AI] Restart Forwarding System (AI dịch)",
+    "english": "Restart Forwarding System",
+    "suggested": "[AI] Restart Forwarding System",
+    "status": "pending"
+  }
+]
