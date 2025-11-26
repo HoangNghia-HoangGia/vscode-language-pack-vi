@@ -83,7 +83,7 @@ function Verify-FileIntegrity {
 # =============================================================================
 
 function Start-AutoUpdate {
-    Write-Log "=== AUTO UPDATE STARTED ==="
+    Write-Log "=== AUTO UPDATE STARTED (V2.1 Hardened) ==="
 
     if ($GitHubRepo -match "DUNG-CAN-THAY-THE-BANG-REPO-THAT") {
         Write-Log "Placeholder GitHubRepo detected. Please provide a real repository." "ERROR"
@@ -96,7 +96,7 @@ function Start-AutoUpdate {
         return $false
     }
 
-    # Get current installed version
+    # 1. Check current version
     $currentVer = "0.0.0"
     try {
         $extensions = & $CodeCommand --list-extensions --show-versions 2>$null
@@ -112,7 +112,7 @@ function Start-AutoUpdate {
         return $false
     }
 
-    # Query latest release
+    # 2. Query GitHub Release
     try {
         $apiUrl = "https://api.github.com/repos/$GitHubRepo/releases/latest"
         $response = Invoke-RestMethod -Uri $apiUrl -Method Get -ErrorAction Stop
@@ -123,50 +123,72 @@ function Start-AutoUpdate {
         return $false
     }
 
-    # Version comparison
-    try {
-        if ([Version]$latestVer -le [Version]$currentVer -and -not $ForceUpdate) {
-            Write-Log "Already up to date (installed: $currentVer | latest: $latestVer)." "SUCCESS"
-            return $true
-        }
-    } catch {
-        Write-Log "Version comparison failed: $($_.Exception.Message)" "ERROR"
-        return $false
+    # 3. Compare Versions
+    if ([Version]$latestVer -le [Version]$currentVer -and -not $ForceUpdate) {
+        Write-Log "Already up to date (installed: $currentVer | latest: $latestVer)." "SUCCESS"
+        return $true
     }
 
-    # Acquire VSIX asset
+    # 4. Find Assets (VSIX & Checksum)
     $vsixAsset = $response.assets | Where-Object { $_.name -match "\.vsix$" } | Select-Object -First 1
+    $checksumAsset = $response.assets | Where-Object { $_.name -eq "checksums.txt" } | Select-Object -First 1
+
     if (-not $vsixAsset) {
         Write-Log "No VSIX asset found in latest release." "ERROR"
         return $false
     }
 
-    # Prepare temp directory
+    # 5. AUTO-FETCH CHECKSUM LOGIC
+    $targetHash = $ExpectedSha256
+    if (-not $targetHash -and $checksumAsset) {
+        Write-Log "Found remote checksum file. Fetching verification hash..."
+        try {
+            $checksumContent = Invoke-RestMethod -Uri $checksumAsset.browser_download_url -ErrorAction Stop
+            # Parse format: "SHA256: <hash>"
+            if ($checksumContent -match "SHA256:\s*([A-Fa-f0-9]{64})") {
+                $targetHash = $matches[1]
+                Write-Log "Auto-detected valid SHA256 from release: $targetHash"
+            } else {
+                Write-Log "Could not parse SHA256 from checksums.txt content." "WARN"
+            }
+        } catch {
+            Write-Log "Failed to download remote checksum: $($_.Exception.Message)" "WARN"
+        }
+    }
+
+    # 6. Download VSIX
     if (-not (Test-Path $TempDir)) { New-Item -ItemType Directory -Path $TempDir -Force | Out-Null }
     $downloadPath = Join-Path $TempDir $vsixAsset.name
     Write-Log "Downloading VSIX: $($vsixAsset.name)"
+    
     try {
         Invoke-WebRequest -Uri $vsixAsset.browser_download_url -OutFile $downloadPath -UseBasicParsing -ErrorAction Stop
-        Write-Log "Download complete: $downloadPath" "SUCCESS"
+        Write-Log "Download complete." "SUCCESS"
     } catch {
         Write-Log "Failed to download VSIX: $($_.Exception.Message)" "ERROR"
         return $false
     }
 
-    # Integrity verification (optional)
-    if (-not (Verify-FileIntegrity -FilePath $downloadPath -ExpectedHash $ExpectedSha256)) {
-        Write-Log "Aborting update due to failed integrity check." "ERROR"
-        return $false
+    # 7. Verify Integrity
+    # If we found a hash (either manual or auto-fetched), ENFORCE it.
+    if ($targetHash) {
+        if (-not (Verify-FileIntegrity -FilePath $downloadPath -ExpectedHash $targetHash)) {
+            Write-Log "CRITICAL: Integrity check failed. Aborting installation." "ERROR"
+            Remove-Item $downloadPath -Force -ErrorAction SilentlyContinue
+            return $false
+        }
+    } else {
+        Write-Log "WARNING: Skipping integrity check (No hash provided or found)." "WARN"
     }
 
-    # Install extension
-    Write-Log "Installing extension (force overwrite)..."
+    # 8. Install
+    Write-Log "Installing extension..."
     $installOutput = & $CodeCommand --install-extension $downloadPath --force 2>&1
     if ($LASTEXITCODE -eq 0) {
-        Write-Log "Update successful. Installed version: $latestVer" "SUCCESS"
+        Write-Log "Update successful to version $latestVer" "SUCCESS"
         return $true
     } else {
-        Write-Log "Extension installation failed. Output: $installOutput" "ERROR"
+        Write-Log "Installation failed. Output: $installOutput" "ERROR"
         return $false
     }
 }
