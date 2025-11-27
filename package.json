@@ -1,9 +1,9 @@
-﻿{
+{
   "name": "vscode-language-pack-vi",
   "displayName": "Vietnamese Language Pack for Visual Studio Code",
   "description": "Language pack extension for Vietnamese",
   "icon": "icon.png",
-  "version": "3.3.0",
+  "version": "3.3.1",
   "publisher": "HoangNghia-HoangGia",
   "engines": {
     "vscode": "^1.90.0"
